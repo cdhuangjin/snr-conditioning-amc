@@ -1,0 +1,1626 @@
+[
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.0020839842628587097,
+      0.0023298355228464156
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.0013214505224339312,
+      -0.001505838967424733,
+      0.002243392747387829,
+      0.0018131530424093656,
+      -0.0006146281499692652
+    ],
+    "group": "overall",
+    "mean": 0.00012292562999385303,
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.001777380914679944
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.0037128867655348546,
+      0.005466812287675319
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.002029426625932418,
+      0.005065926489797756,
+      0.003135162255292645,
+      0.002047225964737942,
+      -0.0038340742785447635
+    ],
+    "group": "overall",
+    "mean": 0.0008769627610702325,
+    "metric": "balanced_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.0036965310528813983
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.0037128867655349938,
+      0.005466812287675192
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.002029426625932418,
+      0.005065926489797645,
+      0.003135162255292534,
+      0.00204722596473772,
+      -0.0038340742785449855
+    ],
+    "group": "overall",
+    "mean": 0.0008769627610700992,
+    "metric": "equal_cell_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.0036965310528814035
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.02017228066667879,
+      -0.002704179075177393
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.020651505838967438,
+      -0.0029194837123540374,
+      -0.01382913337430855,
+      -0.006023355869698821,
+      -0.013767670559311607
+    ],
+    "group": "overall",
+    "mean": -0.011438229870928091,
+    "metric": "concentration",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.007034149986136098
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.0026311122338993,
+      0.009246165686278614
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.005193631558530143,
+      0.00920861406347906,
+      0.00535338119160067,
+      -0.0010654825033964421,
+      -0.0021525106792651405
+    ],
+    "group": "overall",
+    "mean": 0.0033075267261896578,
+    "metric": "prediction_entropy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.004782806756642704
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.08515990968892075,
+      0.04338980490840959
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.012493721224402177,
+      -0.018377630210242524,
+      0.03829129499632522,
+      -0.09650357842443602,
+      -0.040329069537326734
+    ],
+    "group": "overall",
+    "mean": -0.020885052390255576,
+    "metric": "nll",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.05176509699213917
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.013143309462471955,
+      0.007447782740327028
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.004184628611827973,
+      0.0006427383819889165,
+      0.0037182219327498572,
+      -0.014874022526155342,
+      -0.007910383205773724
+    ],
+    "group": "overall",
+    "mean": -0.002847763361072464,
+    "metric": "ece15",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.00829173280073627
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.019081872085667015,
+      0.00032693310946186466
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.003951180964088141,
+      -0.022126613398893713,
+      -0.002195100535604566,
+      -0.008692598120993933,
+      -0.009921854420932519
+    ],
+    "group": "low",
+    "mean": -0.009377469488102575,
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.007815643049652063
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.014459594555692339,
+      0.003488427259640485
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.0019142282248568732,
+      -0.0037102927070458147,
+      -0.0003362298790750562,
+      -0.0032691162522811568,
+      -0.018198051176870733
+    ],
+    "group": "low",
+    "mean": -0.005485583648025927,
+    "metric": "balanced_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.0072274068674363905
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.014459594555692339,
+      0.003488427259640485
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.0019142282248569287,
+      -0.003710292707045759,
+      -0.0003362298790750007,
+      -0.0032691162522812123,
+      -0.018198051176870733
+    ],
+    "group": "low",
+    "mean": -0.005485583648025927,
+    "metric": "equal_cell_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.007227406867436392
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.04841331413204134,
+      -0.01048562343929943
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.048467819826148034,
+      -0.008516990078145575,
+      -0.03520941259109667,
+      -0.02072174905610677,
+      -0.03433137237685488
+    ],
+    "group": "low",
+    "mean": -0.029449468785670386,
+    "metric": "concentration",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.015272928403984282
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.00473615600155009,
+      0.03146621685430844
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.027999734254770203,
+      0.026500101639301388,
+      0.014045716875646597,
+      0.004534684728624838,
+      -0.006255085366447144
+    ],
+    "group": "low",
+    "mean": 0.013365030426379177,
+    "metric": "prediction_entropy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.014578168050386494
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.23050583719063972,
+      0.1389025599767229
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.027206819717442432,
+      -0.021050974010345946,
+      0.13601562593872663,
+      -0.25780764448601223,
+      -0.11337202019460291
+    ],
+    "group": "low",
+    "mean": -0.045801638606958406,
+    "metric": "nll",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.148755378951859
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.03484431234017982,
+      0.02192460189253588
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.004268236118360774,
+      0.007534801586548401,
+      0.011964442395265396,
+      -0.043987847439491246,
+      -0.012078908779793174
+    ],
+    "group": "low",
+    "mean": -0.00645985522382197,
+    "metric": "ece15",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.022860014591241935
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.005317138978991753,
+      0.004169833099049081
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.00040975209997962114,
+      0.003892644949805346,
+      -0.006556033599672162,
+      -0.0008195041999590202,
+      0.0010243802499487753
+    ],
+    "group": "mid",
+    "mean": -0.0005736529399713364,
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.0038202654227572955
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.010653808862008538,
+      0.006702446243509185
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.003804566600050019,
+      0.005394418504053644,
+      -0.006658565737853617,
+      -0.010001876294878698,
+      0.005192183582480303
+    ],
+    "group": "mid",
+    "mean": -0.001975681309249677,
+    "metric": "balanced_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.006989111035926751
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.010653808862008382,
+      0.006702446243509293
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.003804566600049797,
+      0.005394418504053866,
+      -0.006658565737853617,
+      -0.010001876294878476,
+      0.005192183582480303
+    ],
+    "group": "mid",
+    "mean": -0.001975681309249544,
+    "metric": "equal_cell_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.006989111035926731
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.013764698177408231,
+      0.010896433477551625
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.012907191149354652,
+      -0.004302397049784884,
+      -0.003687768899815619,
+      0.01434132349928291,
+      -0.0006146281499692652
+    ],
+    "group": "mid",
+    "mean": -0.0014341323499283021,
+    "metric": "concentration",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.009930678384263189
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.008763599521885952,
+      0.007230792577483054
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.004050184279989821,
+      0.004852127161375952,
+      0.0009925195130559006,
+      -0.010300125746000366,
+      0.00467364599055109
+    ],
+    "group": "mid",
+    "mean": -0.000766403472201449,
+    "metric": "prediction_entropy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.006440708646826786
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.013689516707372626,
+      0.0272793222537799
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.02674605273436459,
+      -0.01328242116953715,
+      -0.005708783353207125,
+      0.008038785278858485,
+      0.018180880375539388
+    ],
+    "group": "mid",
+    "mean": 0.006794902773203637,
+    "metric": "nll",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.016497554499614844
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.001141101825136684,
+      0.012931228113632003
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.009570591968614789,
+      -0.0010472941792294688,
+      0.007543911680828436,
+      0.011204891607493196,
+      0.007908723769214768
+    ],
+    "group": "mid",
+    "mean": 0.007036164969384344,
+    "metric": "ece15",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.004747712064435846
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.0015541701338446763,
+      0.012410181433457127
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.0002458512599877727,
+      0.011309157959434546,
+      0.007990165949600447,
+      0.009956976029502185,
+      0.005408727719729556
+    ],
+    "group": "high",
+    "mean": 0.006982175783650901,
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.004371557569244637
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.00024331889991748793,
+      0.012616395836984307
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.0015775235144499522,
+      0.011110732323311279,
+      0.008503255147293998,
+      0.009383396194536098,
+      0.0035128321919756234
+    ],
+    "group": "high",
+    "mean": 0.006186538468533409,
+    "metric": "balanced_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.0051784197478162855
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.0002433188999175157,
+      0.012616395836984023
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.0015775235144499522,
+      0.011110732323311057,
+      0.008503255147293887,
+      0.009383396194535765,
+      0.0035128321919755123
+    ],
+    "group": "high",
+    "mean": 0.006186538468533254,
+    "metric": "equal_cell_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.005178419747816183
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.0003434780816287725,
+      -4.9883934351574975e-05
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      0.0,
+      -0.0003073140749846326,
+      -0.00018438844499080176,
+      -0.0002458512599877172,
+      -0.0002458512599877172
+    ],
+    "group": "high",
+    "mean": -0.00019668100799017375,
+    "metric": "concentration",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.00011822608519773522
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.0021729441193434375,
+      0.0012381905574130807
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.00209569628102102,
+      0.0016360093250264995,
+      -0.0002400974814545931,
+      -0.001112918511521066,
+      -0.0005241809558557131
+    ],
+    "group": "high",
+    "mean": -0.0004673767809651785,
+    "metric": "prediction_entropy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.001373614231261915
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.02041493685295352,
+      -0.0030799203222495464
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.0020811471737146314,
+      -0.01803485226238194,
+      -0.016915713158496257,
+      -0.014953441292321165,
+      -0.006751989051093671
+    ],
+    "group": "high",
+    "mean": -0.011747428587601532,
+    "metric": "nll",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.006980558571312945
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.004911854003949212,
+      0.0018694971166155604
+    ],
+    "condition": "oracle",
+    "dataset": "04C",
+    "differences": [
+      -0.0011564213621710149,
+      -0.005906970578730708,
+      -0.00017621513197009064,
+      0.0014090546005191074,
+      -0.0017753397459814224
+    ],
+    "group": "high",
+    "mean": -0.0015211784436668257,
+    "metric": "ece15",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.0027307512863282337
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.03301146575796136,
+      -0.02424729269317577
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.02578365089121082,
+      -0.031315304240934316,
+      -0.02575291948371239,
+      -0.026859250153657088,
+      -0.0334357713583282
+    ],
+    "group": "overall",
+    "mean": -0.028629379225568564,
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.0035292047919018976
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.031004642723071518,
+      -0.018640546145825873
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.024634055726669546,
+      -0.020410329225482804,
+      -0.021714559041717152,
+      -0.0241893178365844,
+      -0.03316471034178958
+    ],
+    "group": "overall",
+    "mean": -0.024822594434448696,
+    "metric": "balanced_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.004978841536491351
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.031004642723071567,
+      -0.018640546145825915
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.024634055726669324,
+      -0.020410329225482915,
+      -0.021714559041717263,
+      -0.024189317836584512,
+      -0.033164710341789694
+    ],
+    "group": "overall",
+    "mean": -0.02482259443444874,
+    "metric": "equal_cell_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.004978841536491354
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.014608189229854797,
+      -0.006830040641073296
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.015457897971727114,
+      -0.007252612169637379,
+      -0.011923786109403811,
+      -0.009834050399508298,
+      -0.009127228027043632
+    ],
+    "group": "overall",
+    "mean": -0.010719114935464047,
+    "metric": "concentration",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.003132147102611355
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.00440254156704734,
+      0.011996843489882485
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.0033516921071105044,
+      0.013147872188233212,
+      0.007170650517032362,
+      -0.0021982993826216157,
+      -0.0024861606226666
+    ],
+    "group": "overall",
+    "mean": 0.0037971509614175723,
+    "metric": "prediction_entropy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.006603793409752464
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.05160142380397663,
+      0.15301802427736166
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.1124493018236864,
+      0.11705771800574594,
+      0.142059830917039,
+      0.03337195914986102,
+      0.10660981030701344
+    ],
+    "group": "overall",
+    "mean": 0.10230972404066915,
+    "metric": "nll",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.040838987286455096
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.0105165640522102,
+      0.02647479291897909
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.020336177327708455,
+      0.022686043164167433,
+      0.024139241463105032,
+      0.007955332782932895,
+      0.01736159769005942
+    ],
+    "group": "overall",
+    "mean": 0.018495678485594646,
+    "metric": "ece15",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.006426146239987082
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.033880813127944914,
+      -0.005630996512936651
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.009131618228114868,
+      -0.0351216085696725,
+      -0.008868206163842318,
+      -0.018877864606198946,
+      -0.026780226534375284
+    ],
+    "group": "low",
+    "mean": -0.019755904820440782,
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.011375789527551522
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.028017034315061393,
+      -7.045998985668808e-05
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.006750851249535117,
+      -0.012843613800429143,
+      -0.005385425310266201,
+      -0.011897867569240272,
+      -0.03334097783282447
+    ],
+    "group": "low",
+    "mean": -0.01404374715245904,
+    "metric": "balanced_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.011253678275939878
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.028017034315061463,
+      -7.045998985668461e-05
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.006750851249535117,
+      -0.012843613800429254,
+      -0.005385425310266145,
+      -0.011897867569240328,
+      -0.033340977832824525
+    ],
+    "group": "low",
+    "mean": -0.014043747152459074,
+    "metric": "equal_cell_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.011253678275939908
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.04616549133937751,
+      -0.008343245160754208
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.052945824918781276,
+      -0.012468171042233744,
+      -0.02168759329177275,
+      -0.02598999034155766,
+      -0.023180261655983858
+    ],
+    "group": "low",
+    "mean": -0.027254368250065858,
+    "metric": "concentration",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.015230467434562944
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.007424918530757994,
+      0.03433563032132762
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.026530100269876233,
+      0.03268007779272275,
+      0.012907408197707415,
+      0.004146250241199523,
+      -0.008987057025081846
+    ],
+    "group": "low",
+    "mean": 0.013455355895284815,
+    "metric": "prediction_entropy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.016816364536822333
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.12548901315824856,
+      0.1887040036366831
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.06883579615055213,
+      0.07268282093245748,
+      0.17316773115915307,
+      -0.16983321914742877,
+      0.013184347101352412
+    ],
+    "group": "low",
+    "mean": 0.03160749523921726,
+    "metric": "nll",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.12652094980987394
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.023669444418266825,
+      0.02872788362349504
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.007470135846602222,
+      0.017411152321846757,
+      0.017267725099824077,
+      -0.033730756768961256,
+      0.00422784151375874
+    ],
+    "group": "low",
+    "mean": 0.002529219602614108,
+    "metric": "ece15",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.021099640529789753
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.09304604035230313,
+      -0.0670850803196904
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.06392132759680402,
+      -0.09219422249539033,
+      -0.07846752714607663,
+      -0.08051628764597418,
+      -0.08522843679573866
+    ],
+    "group": "mid",
+    "mean": -0.08006556033599677,
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.010454100332363983
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.07697359745045863,
+      -0.05535532833350491
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.05547906114376788,
+      -0.07151798276259602,
+      -0.0631416719398743,
+      -0.07796602972399158,
+      -0.06271756888967905
+    ],
+    "group": "mid",
+    "mean": -0.06616446289198177,
+    "metric": "balanced_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.008705361977244848
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.07697359745045841,
+      -0.05535532833350485
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.05547906114376777,
+      -0.0715179827625958,
+      -0.0631416719398743,
+      -0.07796602972399136,
+      -0.06271756888967894
+    ],
+    "group": "mid",
+    "mean": -0.06616446289198163,
+    "metric": "equal_cell_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.008705361977244783
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.0150013550377038,
+      0.03900397173959591
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.01761934029911902,
+      0.02683876254865808,
+      0.023765621798811698,
+      0.04322884654783854,
+      0.023560745748821943
+    ],
+    "group": "mid",
+    "mean": 0.027002663388649855,
+    "metric": "concentration",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.009665504007773102
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.015995027731951852,
+      0.002973931899287477
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.0056380770573560834,
+      0.0010459921503623848,
+      -0.006944261802206642,
+      -0.01897504874137801,
+      -0.0020413441310825897
+    ],
+    "group": "mid",
+    "mean": -0.006510547916332187,
+    "metric": "prediction_entropy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.007638523649989252
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.29769124624375765,
+      0.46690326800655146
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.3183808366767234,
+      0.4356153419589971,
+      0.3019232887555602,
+      0.4049171785393698,
+      0.45064963969512256
+    ],
+    "group": "mid",
+    "mean": 0.38229725712515455,
+    "metric": "nll",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.06813921560405314
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.05495919621312245,
+      0.0815090126008946
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.052195088048719716,
+      0.07322777073955776,
+      0.062456019312203764,
+      0.07689290389550593,
+      0.07639874003905552
+    ],
+    "group": "mid",
+    "mean": 0.06823410440700853,
+    "metric": "ece15",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.010691224206460069
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.027003587926999376,
+      -0.011816326025059616
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.02599877074370005,
+      -0.010387215734480648,
+      -0.021757836508912165,
+      -0.016349108789182498,
+      -0.02255685310387212
+    ],
+    "group": "high",
+    "mean": -0.019409956976029496,
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.006115689076879977
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.028389633702396652,
+      -0.011540820286766342
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.02789879723553379,
+      -0.010374733961886484,
+      -0.020716818784285662,
+      -0.016660319457503125,
+      -0.024175465533698426
+    ],
+    "group": "high",
+    "mean": -0.019965226994581496,
+    "metric": "balanced_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.00678477166125635
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.0283896337023967,
+      -0.011540820286766562
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.0278987972355339,
+      -0.010374733961886817,
+      -0.02071681878428555,
+      -0.016660319457503237,
+      -0.024175465533698648
+    ],
+    "group": "high",
+    "mean": -0.01996522699458163,
+    "metric": "equal_cell_accuracy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.006784771661256282
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.0005498102516393022,
+      0.0028921073881885938
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.0008604794099569824,
+      0.0017824216349108801,
+      0.0007990165949600392,
+      0.0020897357098955127,
+      0.003073140749846326
+    ],
+    "group": "high",
+    "mean": 0.001720958819913948,
+    "metric": "concentration",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.0009432089276719559
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      -0.0060205238316457625,
+      0.0018664094284214557
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      -0.007197439749842105,
+      0.0011917015142410836,
+      -0.00022805550262949836,
+      -0.0019643890773153316,
+      -0.0021871031925149165
+    ],
+    "group": "high",
+    "mean": -0.0020770572016121534,
+    "metric": "prediction_entropy",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.0031759531046550195
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.05468219422043971,
+      0.08092785433223995
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.08119929533896945,
+      0.05255285877107227,
+      0.0723252633960027,
+      0.0641520181411112,
+      0.06879568573454353
+    ],
+    "group": "high",
+    "mean": 0.06780502427633983,
+    "metric": "nll",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.010568744905935968
+  },
+  {
+    "baseline": "M0",
+    "ci95": [
+      0.005137105011902343,
+      0.01745461727756083
+    ],
+    "condition": "estimated",
+    "dataset": "04C",
+    "differences": [
+      0.014729141043977757,
+      0.003021671816862411,
+      0.01546079710229058,
+      0.011093061147182642,
+      0.012174634613344549
+    ],
+    "group": "high",
+    "mean": 0.011295861144731587,
+    "metric": "ece15",
+    "n_pairs": 5,
+    "scope": "five network seeds on one fixed dataset partition",
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "std": 0.004960082712987348
+  }
+]

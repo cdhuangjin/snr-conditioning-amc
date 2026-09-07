@@ -1,0 +1,74 @@
+[
+  {
+    "asset": "radioml2016-data.zip",
+    "path": "research/phase2-v2/data/RML2016.10a_dict.pkl",
+    "bytes": 640919653,
+    "sha256": "b29ccc25b00d0718cd3b70ffa9158662ec83f6d9b63ffd845c7bcbe3b3096e8c"
+  },
+  {
+    "asset": "radioml2016-data.zip",
+    "path": "data/RML2016.04c.dat",
+    "bytes": 252028390,
+    "sha256": "3794a88b8d4bc8d20ac2a9e4516f5443283459ff9efd8c992055fe2745311200"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/clean.npy",
+    "bytes": 294912128,
+    "sha256": "a43f8efc0d76b7638c6c178b1473513ea8c926ea7886f4d98edddb62d4ea00fe"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/identity.npz",
+    "bytes": 1223524,
+    "sha256": "74cb4a2e04dbae5ed4012638b2a5d973f1588be313ca5b861a9b5793a5d4eef7"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/latents.npz",
+    "bytes": 11096678,
+    "sha256": "de653b6ef1e0dc50747154308c10b6ebdcae72433dcf1bfbf5d56606d02c49f5"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/manifest.json",
+    "bytes": 1455,
+    "sha256": "b8b8757d76e3eea9ed64fcc8abb73996d14ef9e7b090d37715970f970bcfa3db"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/observed.npy",
+    "bytes": 294912128,
+    "sha256": "64df2ad12c0b67cabec15fea54dbbe2390864fd934104d80c1d4a17eabf27598"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/payload_noise.npy",
+    "bytes": 294912128,
+    "sha256": "cb2546484d7d3999cfb5e14704dddde777ef58bfdc57bd69cbf9dd9813987c5b"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/pilot.npy",
+    "bytes": 147456128,
+    "sha256": "2dd7b1f3c8ed32b5469717faca958cf7340287a1606cd40e56df89b9c3cbd089"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/pilot_noise.npy",
+    "bytes": 147456128,
+    "sha256": "89cf9b5904a67794a203b48d92ce5fb0b13d35de510e91e10bc89d2ef5ec01c4"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/protocol.json",
+    "bytes": 473,
+    "sha256": "d5c341756fd77f26c0bf16dc3bf2d0e7a3f766800af37f2e13b2fb76c196259f"
+  },
+  {
+    "asset": "independent-waveforms.zip",
+    "path": "data/independent-waveforms/signals.npy",
+    "bytes": 147456128,
+    "sha256": "cdf1507df49961a704903e65805bc7549c84469cae27fcf0fa850cd142276ade"
+  }
+]

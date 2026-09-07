@@ -1,0 +1,26 @@
+schema_version: 1
+phase10_current: results/v2/phase10_reliability_floors/current.json
+phase6_current: results/v2/phase6_preprocessing/current.json
+output: results/v2/phase11_cross_dataset_04c
+datasets: ['04C']
+models: ['M0', 'M6']
+seeds: [2022, 2023, 2024, 2025, 2026]
+device: cuda
+torch_num_threads: 24
+evaluation_batch_size: 64
+feature_chunk_size: 128
+ridge_alphas: [0.01, 0.1, 1.0, 10.0, 100.0]
+training:
+  optimizer: Adam
+  lr: 0.001
+  batch_size: 128
+  max_epochs: 100
+architecture:
+  num_levels: 1
+  in_channels: 64
+  kernel_size: 3
+  latent_dim: 320
+  regu_details: 0.01
+  regu_approx: 0.01
+  snr_embedding_dim: 8
+distribution_shift_status: PENDING_PHASE12_CHANNEL

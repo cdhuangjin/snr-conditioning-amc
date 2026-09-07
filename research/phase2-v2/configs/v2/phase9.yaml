@@ -1,0 +1,32 @@
+schema_version: 1
+phase8_current: results/v2/phase8_sidechannel/current.json
+output: results/v2/phase9_deployment_noise
+model: M6
+seeds: [2022, 2023, 2024, 2025, 2026]
+arms: [clean, generic, empirical_snr]
+device: cuda
+cpu_threads: 24
+evaluation_batch_size: 64
+runtime_adapter: reflection_pad1d_slice_flip_cat_v1
+training:
+  optimizer: Adam
+  lr: 0.001
+  batch_size: 128
+  max_epochs: 100
+  validation_condition: frozen_phase6_estimate
+  validation_metric: accuracy
+  checkpoint_tie: latest_epoch
+noise:
+  generic_std_db: 2.0
+  empirical_stratum: true_snr_only
+  folds: 5
+  fold_seed: 2022
+  alpha_source: frozen_phase6_validation_selected
+  feature_mode: legacy_identity
+  condition_rng_stream: 9
+cliff:
+  origins: [oracle, estimated]
+  deltas_db: [-12, -8, -4, -2, -1, -0.1, 0, 0.1, 1, 2, 4, 8, 12]
+  boundary_epsilon_db: 0.001
+  models: [M3, M6]
+distribution_shift_status: PENDING_PHASE11_12

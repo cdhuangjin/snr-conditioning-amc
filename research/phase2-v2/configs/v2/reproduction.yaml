@@ -1,0 +1,57 @@
+schema_version: 1
+protocol:
+  version: phase1-rml2016.10a/4
+  baseline_spec_sha256: cb6e78a12ec0a8f2bb350d90ce964616745f3faab5d4edb326b9404de21c61b2
+  trusted_pickle_boundary: Exact repository path and approved SHA-256 are verified before unpickling.
+dataset:
+  id: RML2016.10a
+  path: data/RML2016.10a_dict.pkl
+  sha256: b29ccc25b00d0718cd3b70ffa9158662ec83f6d9b63ffd845c7bcbe3b3096e8c
+split:
+  metadata: splits/v2/RML2016.10a_seed2022.json
+  npz: splits/v2/RML2016.10a_seed2022.06b3ef80937bb5c1627a8f083d40c0c9823bfbb93f5fb356183294ad3387297d.npz
+seed: 2022
+device: cpu
+device_reason: CPU selected for the historical reproduction and deterministic execution.
+historical_targets:
+  plain: 0.621
+  conditioned: 0.671
+tolerance_pp: 0.5
+memory:
+  max_dataset_and_indices_bytes: 300000000
+  measurement: steady-state signals+labels+snrs+split-index bytes; excludes transient pickle and allocator overhead
+  scope: RML2016.10a only; RML2018 requires the Phase11 subset/memmap path.
+training:
+  optimizer: Adam
+  lr: 0.001
+  batch_size: 128
+  patience: 10
+  max_epochs: 100
+  milestone_step: 3
+  gamma: 0.5
+evaluation_batch_size: 64
+architecture:
+  num_classes: 11
+  num_levels: 1
+  in_channels: 64
+  kernel_size: 3
+  latent_dim: 320
+  regu_details: 0.01
+  regu_approx: 0.01
+  num_snr_bins: 20
+  snr_embedding_dim: 8
+models:
+  plain:
+    name: AWN
+    conditioner: none
+    source: models/model.py
+  conditioned:
+    name: AWNSNR
+    conditioner: true_snr_embedding
+    source: models/model_snr.py
+outputs:
+  root: results/v2/reproduction
+  gate_state: results/v2/reproduction/gate_state.json
+  manifest: manifest.json
+  progress: reports/v2_progress.md
+  failure_report: reports/reproduction_failure.md

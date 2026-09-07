@@ -1,0 +1,9 @@
+{
+  "distribution_shift_scope": "independent_defined_waveforms_A_vs_B_only_no_general_fading_claim",
+  "evaluation_rows": 210,
+  "latent_frames": 120000,
+  "observations": 144000,
+  "source10a_status": "FROZEN_NO_REFIT",
+  "status": "COMPLETE",
+  "training_runs": 15
+}

@@ -1,0 +1,47 @@
+{
+  "architecture": {
+    "in_channels": 64,
+    "kernel_size": 3,
+    "latent_dim": 320,
+    "num_levels": 1,
+    "regu_approx": 0.01,
+    "regu_details": 0.01,
+    "snr_embedding_dim": 8
+  },
+  "datasets": [
+    "04C"
+  ],
+  "device": "cuda",
+  "distribution_shift_status": "PENDING_PHASE12_CHANNEL",
+  "evaluation_batch_size": 64,
+  "feature_chunk_size": 128,
+  "models": [
+    "M0",
+    "M6"
+  ],
+  "output": "results/v2/phase11_cross_dataset_04c",
+  "phase10_current": "results/v2/phase10_reliability_floors/current.json",
+  "phase6_current": "results/v2/phase6_preprocessing/current.json",
+  "ridge_alphas": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "schema_version": 1,
+  "seeds": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "torch_num_threads": 24,
+  "training": {
+    "batch_size": 128,
+    "lr": 0.001,
+    "max_epochs": 100,
+    "optimizer": "Adam"
+  }
+}

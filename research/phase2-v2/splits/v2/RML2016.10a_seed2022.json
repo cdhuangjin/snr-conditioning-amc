@@ -1,0 +1,2015 @@
+{
+  "schema_version": 1,
+  "dataset_id": "RML2016.10a",
+  "dataset_path": "data/RML2016.10a_dict.pkl",
+  "data_sha256": "b29ccc25b00d0718cd3b70ffa9158662ec83f6d9b63ffd845c7bcbe3b3096e8c",
+  "seed": 2022,
+  "ratios": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "rounding": "floor_train_floor_test_validation_remainder",
+  "per_cell_counts": [
+    {
+      "class": "8PSK",
+      "snr": -20,
+      "start": 0,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": -18,
+      "start": 1000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": -16,
+      "start": 2000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": -14,
+      "start": 3000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": -12,
+      "start": 4000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": -10,
+      "start": 5000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": -8,
+      "start": 6000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": -6,
+      "start": 7000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": -4,
+      "start": 8000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": -2,
+      "start": 9000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 0,
+      "start": 10000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 2,
+      "start": 11000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 4,
+      "start": 12000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 6,
+      "start": 13000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 8,
+      "start": 14000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 10,
+      "start": 15000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 12,
+      "start": 16000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 14,
+      "start": 17000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 16,
+      "start": 18000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "8PSK",
+      "snr": 18,
+      "start": 19000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -20,
+      "start": 20000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -18,
+      "start": 21000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -16,
+      "start": 22000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -14,
+      "start": 23000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -12,
+      "start": 24000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -10,
+      "start": 25000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -8,
+      "start": 26000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -6,
+      "start": 27000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -4,
+      "start": 28000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": -2,
+      "start": 29000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 0,
+      "start": 30000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 2,
+      "start": 31000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 4,
+      "start": 32000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 6,
+      "start": 33000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 8,
+      "start": 34000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 10,
+      "start": 35000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 12,
+      "start": 36000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 14,
+      "start": 37000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 16,
+      "start": 38000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-DSB",
+      "snr": 18,
+      "start": 39000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -20,
+      "start": 40000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -18,
+      "start": 41000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -16,
+      "start": 42000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -14,
+      "start": 43000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -12,
+      "start": 44000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -10,
+      "start": 45000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -8,
+      "start": 46000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -6,
+      "start": 47000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -4,
+      "start": 48000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": -2,
+      "start": 49000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 0,
+      "start": 50000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 2,
+      "start": 51000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 4,
+      "start": 52000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 6,
+      "start": 53000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 8,
+      "start": 54000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 10,
+      "start": 55000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 12,
+      "start": 56000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 14,
+      "start": 57000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 16,
+      "start": 58000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "AM-SSB",
+      "snr": 18,
+      "start": 59000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -20,
+      "start": 60000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -18,
+      "start": 61000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -16,
+      "start": 62000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -14,
+      "start": 63000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -12,
+      "start": 64000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -10,
+      "start": 65000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -8,
+      "start": 66000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -6,
+      "start": 67000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -4,
+      "start": 68000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": -2,
+      "start": 69000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 0,
+      "start": 70000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 2,
+      "start": 71000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 4,
+      "start": 72000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 6,
+      "start": 73000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 8,
+      "start": 74000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 10,
+      "start": 75000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 12,
+      "start": 76000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 14,
+      "start": 77000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 16,
+      "start": 78000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "BPSK",
+      "snr": 18,
+      "start": 79000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -20,
+      "start": 80000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -18,
+      "start": 81000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -16,
+      "start": 82000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -14,
+      "start": 83000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -12,
+      "start": 84000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -10,
+      "start": 85000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -8,
+      "start": 86000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -6,
+      "start": 87000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -4,
+      "start": 88000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": -2,
+      "start": 89000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 0,
+      "start": 90000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 2,
+      "start": 91000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 4,
+      "start": 92000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 6,
+      "start": 93000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 8,
+      "start": 94000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 10,
+      "start": 95000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 12,
+      "start": 96000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 14,
+      "start": 97000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 16,
+      "start": 98000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "CPFSK",
+      "snr": 18,
+      "start": 99000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -20,
+      "start": 100000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -18,
+      "start": 101000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -16,
+      "start": 102000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -14,
+      "start": 103000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -12,
+      "start": 104000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -10,
+      "start": 105000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -8,
+      "start": 106000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -6,
+      "start": 107000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -4,
+      "start": 108000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": -2,
+      "start": 109000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 0,
+      "start": 110000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 2,
+      "start": 111000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 4,
+      "start": 112000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 6,
+      "start": 113000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 8,
+      "start": 114000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 10,
+      "start": 115000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 12,
+      "start": 116000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 14,
+      "start": 117000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 16,
+      "start": 118000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "GFSK",
+      "snr": 18,
+      "start": 119000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -20,
+      "start": 120000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -18,
+      "start": 121000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -16,
+      "start": 122000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -14,
+      "start": 123000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -12,
+      "start": 124000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -10,
+      "start": 125000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -8,
+      "start": 126000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -6,
+      "start": 127000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -4,
+      "start": 128000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": -2,
+      "start": 129000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 0,
+      "start": 130000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 2,
+      "start": 131000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 4,
+      "start": 132000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 6,
+      "start": 133000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 8,
+      "start": 134000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 10,
+      "start": 135000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 12,
+      "start": 136000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 14,
+      "start": 137000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 16,
+      "start": 138000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "PAM4",
+      "snr": 18,
+      "start": 139000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -20,
+      "start": 140000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -18,
+      "start": 141000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -16,
+      "start": 142000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -14,
+      "start": 143000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -12,
+      "start": 144000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -10,
+      "start": 145000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -8,
+      "start": 146000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -6,
+      "start": 147000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -4,
+      "start": 148000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": -2,
+      "start": 149000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 0,
+      "start": 150000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 2,
+      "start": 151000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 4,
+      "start": 152000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 6,
+      "start": 153000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 8,
+      "start": 154000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 10,
+      "start": 155000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 12,
+      "start": 156000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 14,
+      "start": 157000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 16,
+      "start": 158000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM16",
+      "snr": 18,
+      "start": 159000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -20,
+      "start": 160000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -18,
+      "start": 161000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -16,
+      "start": 162000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -14,
+      "start": 163000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -12,
+      "start": 164000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -10,
+      "start": 165000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -8,
+      "start": 166000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -6,
+      "start": 167000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -4,
+      "start": 168000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": -2,
+      "start": 169000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 0,
+      "start": 170000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 2,
+      "start": 171000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 4,
+      "start": 172000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 6,
+      "start": 173000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 8,
+      "start": 174000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 10,
+      "start": 175000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 12,
+      "start": 176000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 14,
+      "start": 177000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 16,
+      "start": 178000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QAM64",
+      "snr": 18,
+      "start": 179000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -20,
+      "start": 180000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -18,
+      "start": 181000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -16,
+      "start": 182000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -14,
+      "start": 183000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -12,
+      "start": 184000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -10,
+      "start": 185000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -8,
+      "start": 186000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -6,
+      "start": 187000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -4,
+      "start": 188000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": -2,
+      "start": 189000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 0,
+      "start": 190000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 2,
+      "start": 191000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 4,
+      "start": 192000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 6,
+      "start": 193000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 8,
+      "start": 194000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 10,
+      "start": 195000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 12,
+      "start": 196000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 14,
+      "start": 197000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 16,
+      "start": 198000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "QPSK",
+      "snr": 18,
+      "start": 199000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -20,
+      "start": 200000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -18,
+      "start": 201000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -16,
+      "start": 202000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -14,
+      "start": 203000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -12,
+      "start": 204000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -10,
+      "start": 205000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -8,
+      "start": 206000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -6,
+      "start": 207000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -4,
+      "start": 208000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": -2,
+      "start": 209000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 0,
+      "start": 210000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 2,
+      "start": 211000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 4,
+      "start": 212000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 6,
+      "start": 213000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 8,
+      "start": 214000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 10,
+      "start": 215000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 12,
+      "start": 216000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 14,
+      "start": 217000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 16,
+      "start": 218000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    },
+    {
+      "class": "WBFM",
+      "snr": 18,
+      "start": 219000,
+      "all": 1000,
+      "train": 600,
+      "validation": 200,
+      "test": 200
+    }
+  ],
+  "total_counts": {
+    "all": 220000,
+    "train": 132000,
+    "validation": 44000,
+    "test": 44000
+  },
+  "generation": {
+    "algorithm": "numpy-randomstate-cell-choice-train-test-remainder",
+    "version": "1",
+    "random_api": "numpy.random.RandomState",
+    "historical_compatibility": "exact legacy integer-set remainder order; validated on the recorded runtime"
+  },
+  "split_hash": "42450053b13189fdd4ca1ab859e26a5ff61c93b8cdb26bff48c76fde7b1f54a9",
+  "npz_sha256": "06b3ef80937bb5c1627a8f083d40c0c9823bfbb93f5fb356183294ad3387297d",
+  "npz_path": "splits/v2/RML2016.10a_seed2022.06b3ef80937bb5c1627a8f083d40c0c9823bfbb93f5fb356183294ad3387297d.npz",
+  "storage_generation": {
+    "format": "deterministic-npz-content-addressed",
+    "version": 1,
+    "sha256": "06b3ef80937bb5c1627a8f083d40c0c9823bfbb93f5fb356183294ad3387297d"
+  }
+}

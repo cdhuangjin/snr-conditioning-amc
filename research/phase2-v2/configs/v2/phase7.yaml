@@ -1,0 +1,5 @@
+schema_version: 1
+seeds: [2022, 2023, 2024, 2025, 2026]
+# Exact mapping in the frozen, SHA-verified Phase 1 dataset adapter.
+class_names: [QAM16, QAM64, 8PSK, WBFM, BPSK, CPFSK, AM-DSB, GFSK, PAM4, QPSK, AM-SSB]
+scope: diagnostics_only_controls_pending

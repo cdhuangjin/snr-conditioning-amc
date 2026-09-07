@@ -1,0 +1,11 @@
+schema_version: 1
+seeds: [2022, 2023, 2024, 2025, 2026]
+controls: [remove_wbfm, frame_rms]
+device: cuda
+runtime_adapter: reflection_pad1d_slice_flip_cat_v1
+cpu_threads: 24
+training:
+  optimizer: Adam
+  lr: 0.001
+  batch_size: 128
+  max_epochs: 100

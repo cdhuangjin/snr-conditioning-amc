@@ -1,0 +1,52 @@
+schema_version: 1
+generator_version: 1
+construction_seed: 20260906
+status: PROSPECTIVE_NOT_FORMAL
+classes: [BPSK, QPSK, 8PSK, 16QAM, DSB_mathematical, FM_mathematical]
+snr_grid_db: [-20, -18, -16, -14, -12, -10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+frames_per_cell: {train: 600, validation: 200, test: 200}
+payload_complex_samples: 128
+samples_per_symbol: 4
+digital_context_symbols: 34
+digital_crop: '[4+offset:132+offset], offset uniform integer 0..3'
+fir: {taps: 65, window: hamming, cutoff_nyquist: 0.05, dc_gain: 1}
+analog_context_samples: 192
+analog_crop: valid_convolution_128_then_center_and_unit_RMS
+dsb_index: 0.5
+dsb_negative_envelope: allowed
+fm_radians_per_message_sample: 0.35
+fm_initial_phase: zero_before_crop
+clean_power_normalization: unit_frame_average_complex_power
+rng: PCG64_SeedSequence
+entropy_order: [version, construction_seed, partition, class_index, snr_index, frame_index, channel, purpose]
+partition_codes: {train: 0, validation: 1, test: 2}
+channel_codes: {clean: 0, A: 1, B: 2}
+purpose_codes: {symbols: 0, offset: 1, message: 2, channel: 3, cfo: 4, gain: 5, payload_noise: 6, pilot_noise: 7}
+channel_A: unit_magnitude_phase_uniform_minus_pi_pi
+channel_B: complex_standard_normal_over_sqrt2_test_only
+cfo_B_cycles_per_sample: [-0.02, 0.02]
+receiver_gain_db: [-6, 6]
+receiver_gain_amplitude: 10_pow_gain_db_over_20
+receiver_gain_pairing: shared_A_B_independent_of_payload_channel_and_noise
+noise: proper_complex_gaussian_no_realized_frame_renormalization
+noise_variance: post_channel_clean_payload_power_div_expected_linear_snr_before_gain
+reference_dtype: complex128
+model_dtype_layout: float32_NCT
+pilot_counts: [0, 8, 16, 32, 64]
+pilot: alternating_BPSK_unit_modulus
+pilot_times: minus_64_through_minus_1
+payload_times: zero_through_127
+pilot_K_selection: nested_suffix_last_K
+pilot_ls_noise_degrees_of_freedom: K_minus_1_complex
+pilot_corrected_signal_power: abs_hhat_squared_minus_sigmahat_squared_over_energy
+pilot_guard_epsilon: 1.0e-12
+pilot_clip_db: [-20, 18]
+pilot_K0: separate_train_only_frame_estimator_fallback_no_pilot_estimate
+model_seeds: [2022, 2023, 2024, 2025, 2026]
+models: [M0, M6, CLDNN]
+formal_new_training_runs: 15
+initialization: fresh_six_class_no_historical_weights
+extra_baseline_source: primary_checkout_experiments/train_baselines.py_CLDNN
+extra_baseline_selection: existing_implementation_and_viability_no_new_test_accuracy
+formal_generation_enabled: false
+formal_training_enabled: false

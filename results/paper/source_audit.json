@@ -1,0 +1,572 @@
+{
+  "scope": "Source copies, current-pointer manifest hashes, and 40 seed-summary recomputations; not a full experiment replay",
+  "pointers": {
+    "toy": {
+      "attempt": "results/v2/phase5_toy/attempts/20260906T003348Z_80cc25c7",
+      "manifest_hash_verified": true,
+      "validation": {
+        "datasets": 175,
+        "evaluation_rows": 350,
+        "files": 186,
+        "status": "VALIDATED"
+      },
+      "files": [
+        "summary.json",
+        "rows.json",
+        "config.json",
+        "report.md"
+      ]
+    },
+    "preprocessing": {
+      "attempt": "results/v2/phase6_preprocessing/receipts/109f5882dc391f74",
+      "manifest_hash_verified": true,
+      "validation": null,
+      "files": [
+        "report.md"
+      ]
+    },
+    "sidechannel": {
+      "attempt": "results/v2/phase8_sidechannel/attempts/20260906T094008Z_c89ef316",
+      "manifest_hash_verified": true,
+      "validation": {
+        "checkpoint_conditions": 50,
+        "e4_independent_fits": 1,
+        "files": 77,
+        "raw_caches": 10,
+        "status": "VALIDATED"
+      },
+      "files": [
+        "summary.json",
+        "rows.json",
+        "config.json"
+      ]
+    },
+    "noise": {
+      "attempt": "results/v2/phase9_deployment_noise/attempts/ba77baf7ff6acf661770",
+      "manifest_hash_verified": true,
+      "validation": {
+        "cliff_interventions": 545,
+        "distribution_shift_status": "PENDING_PHASE11_12",
+        "historical_references": 10,
+        "matched_evaluations": 20,
+        "new_training_runs": 15,
+        "status": "VALIDATED"
+      },
+      "files": [
+        "rows.json",
+        "config.json"
+      ]
+    },
+    "floors": {
+      "attempt": "results/v2/phase10_reliability_floors/attempts/20260906T233127Z_af124815",
+      "manifest_hash_verified": true,
+      "validation": {
+        "checkpoints": 10,
+        "evaluations": 80,
+        "files": 179,
+        "phase9_distribution_shift_status": "PENDING_PHASE11_12",
+        "status": "VALIDATED"
+      },
+      "files": [
+        "summary.json",
+        "rows.json",
+        "config.json",
+        "report.md"
+      ]
+    },
+    "04c": {
+      "attempt": "results/v2/phase11_cross_dataset_04c/attempts/df47d1e42b124b4379d9",
+      "manifest_hash_verified": true,
+      "validation": {
+        "status": "VALIDATED",
+        "training_runs": 10,
+        "evaluation_rows": 15,
+        "distribution_shift_status": "PENDING_PHASE12_CHANNEL"
+      },
+      "files": [
+        "paired.json",
+        "rows.json",
+        "config.json",
+        "report.md"
+      ]
+    },
+    "synthetic": {
+      "attempt": "results/v2/phase12_independent_waveforms/execution/attempts/20260907T014319Z_2922fa72",
+      "manifest_hash_verified": true,
+      "validation": {
+        "evaluation_rows": 210,
+        "scientific": true,
+        "status": "VALIDATED",
+        "training_runs": 15
+      },
+      "files": [
+        "summary.json",
+        "paired.json",
+        "rows.json",
+        "protocol.json"
+      ]
+    }
+  },
+  "conditioning_checks": [
+    {
+      "model": "M0",
+      "metric": "overall_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M0",
+      "metric": "macro_f1",
+      "max_error": 1.0842021724855044e-19
+    },
+    {
+      "model": "M0",
+      "metric": "balanced_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M0",
+      "metric": "nll",
+      "max_error": 0.0
+    },
+    {
+      "model": "M0",
+      "metric": "ece",
+      "max_error": 1.734723475976807e-17
+    },
+    {
+      "model": "M1",
+      "metric": "overall_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M1",
+      "metric": "macro_f1",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M1",
+      "metric": "balanced_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M1",
+      "metric": "nll",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M1",
+      "metric": "ece",
+      "max_error": 2.2551405187698492e-17
+    },
+    {
+      "model": "M2",
+      "metric": "overall_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M2",
+      "metric": "macro_f1",
+      "max_error": 0.0
+    },
+    {
+      "model": "M2",
+      "metric": "balanced_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M2",
+      "metric": "nll",
+      "max_error": 0.0
+    },
+    {
+      "model": "M2",
+      "metric": "ece",
+      "max_error": 1.734723475976807e-17
+    },
+    {
+      "model": "M3",
+      "metric": "overall_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M3",
+      "metric": "macro_f1",
+      "max_error": 0.0
+    },
+    {
+      "model": "M3",
+      "metric": "balanced_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M3",
+      "metric": "nll",
+      "max_error": 0.0
+    },
+    {
+      "model": "M3",
+      "metric": "ece",
+      "max_error": 1.214306433183765e-17
+    },
+    {
+      "model": "M4",
+      "metric": "overall_accuracy",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M4",
+      "metric": "macro_f1",
+      "max_error": 4.336808689942018e-19
+    },
+    {
+      "model": "M4",
+      "metric": "balanced_accuracy",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M4",
+      "metric": "nll",
+      "max_error": 0.0
+    },
+    {
+      "model": "M4",
+      "metric": "ece",
+      "max_error": 1.0408340855860843e-17
+    },
+    {
+      "model": "M5",
+      "metric": "overall_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M5",
+      "metric": "macro_f1",
+      "max_error": 0.0
+    },
+    {
+      "model": "M5",
+      "metric": "balanced_accuracy",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M5",
+      "metric": "nll",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M5",
+      "metric": "ece",
+      "max_error": 2.7755575615628914e-17
+    },
+    {
+      "model": "M6",
+      "metric": "overall_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M6",
+      "metric": "macro_f1",
+      "max_error": 0.0
+    },
+    {
+      "model": "M6",
+      "metric": "balanced_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M6",
+      "metric": "nll",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M6",
+      "metric": "ece",
+      "max_error": 2.6020852139652106e-17
+    },
+    {
+      "model": "M7",
+      "metric": "overall_accuracy",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M7",
+      "metric": "macro_f1",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M7",
+      "metric": "balanced_accuracy",
+      "max_error": 0.0
+    },
+    {
+      "model": "M7",
+      "metric": "nll",
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "model": "M7",
+      "metric": "ece",
+      "max_error": 3.469446951953614e-17
+    }
+  ],
+  "sources": [
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase5_toy\\current.json",
+      "copy": "toy_current.json",
+      "sha256": "ccc539dcc85e1c7791b789c1d5ce782e13202550270a6d3fded42ee69d7f6db0",
+      "bytes": 316
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase5_toy\\attempts\\20260906T003348Z_80cc25c7\\manifest.json",
+      "copy": "toy_manifest.json",
+      "sha256": "a2555bcc13774927db6bb29c239b0e7a4610283721e3075d947be5faa42772b9",
+      "bytes": 20572
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase5_toy\\attempts\\20260906T003348Z_80cc25c7\\summary.json",
+      "copy": "toy_summary.json",
+      "sha256": "be0e4462ab9afae0c0df63a30a16d1e0748fdcc3930a3ca96f85332c67cb2680",
+      "bytes": 147336
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase5_toy\\attempts\\20260906T003348Z_80cc25c7\\rows.json",
+      "copy": "toy_rows.json",
+      "sha256": "d2cfd15ea691baf8a8e263f00d34afe9b92e521040d1b6322062661c3587a4ca",
+      "bytes": 350581
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase5_toy\\attempts\\20260906T003348Z_80cc25c7\\config.json",
+      "copy": "toy_config.json",
+      "sha256": "4f8b8635f3d4c45feeaec83072abba284a6de9a9870145ac4846a2ac5fc48e54",
+      "bytes": 13887
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase5_toy\\attempts\\20260906T003348Z_80cc25c7\\report.md",
+      "copy": "toy_report.md",
+      "sha256": "8a44e387848da8dc5d6d26da2ce85b1f616340d55c7a5e823da51bacbe47f8dd",
+      "bytes": 831
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase6_preprocessing\\current.json",
+      "copy": "preprocessing_current.json",
+      "sha256": "445cb2afff77211ff425922ad2c6d09402ecd7ab7e8065f111b62b2699228f4f",
+      "bytes": 873
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase6_preprocessing\\receipts\\109f5882dc391f74\\manifest.json",
+      "copy": "preprocessing_manifest.json",
+      "sha256": "f050f64b16693a4ff141470ef1bbfeb66846ce52414c6dd6d616adb221a56e37",
+      "bytes": 1866
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase6_preprocessing\\receipts\\109f5882dc391f74\\report.md",
+      "copy": "preprocessing_report.md",
+      "sha256": "5286f0f3cef783e579d79d8d7d05cd46c5a88898546edf270a75904c75ba1021",
+      "bytes": 964
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase8_sidechannel\\current.json",
+      "copy": "sidechannel_current.json",
+      "sha256": "ad89ba9aaeee2456d456bbf194ff8705cf638e76ca71fdb3a6cc5b6035f9d21c",
+      "bytes": 360
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase8_sidechannel\\attempts\\20260906T094008Z_c89ef316\\manifest.json",
+      "copy": "sidechannel_manifest.json",
+      "sha256": "a9ea56a9445b1f544411e902a8509af4ed431a33ee8d56cabe0143bee07f3c4c",
+      "bytes": 16303
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase8_sidechannel\\attempts\\20260906T094008Z_c89ef316\\summary.json",
+      "copy": "sidechannel_summary.json",
+      "sha256": "84493e177678fee724d09b5a584a08378182faaac1d3015a39c2bdfbd27c9169",
+      "bytes": 453
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase8_sidechannel\\attempts\\20260906T094008Z_c89ef316\\rows.json",
+      "copy": "sidechannel_rows.json",
+      "sha256": "f52816947ac5b41d1975b8aca7632a7460e1b9bb8f311f0b07b534bb6563d8cc",
+      "bytes": 5953605
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase8_sidechannel\\attempts\\20260906T094008Z_c89ef316\\config.json",
+      "copy": "sidechannel_config.json",
+      "sha256": "6444218768f13529eb78b73840e29667d4765d48b5694b8bf9d5fe195838988b",
+      "bytes": 754
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase9_deployment_noise\\current.json",
+      "copy": "noise_current.json",
+      "sha256": "ac29943140fee8af8717feeb0641b17bafd22d8a8b48a81ff2f548ce66f9a33c",
+      "bytes": 439
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase9_deployment_noise\\attempts\\ba77baf7ff6acf661770\\manifest.json",
+      "copy": "noise_manifest.json",
+      "sha256": "f5b38d55ef597f1f1d02388f53afc998a237f379ef68bd44606967f8450c1409",
+      "bytes": 79922
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase9_deployment_noise\\attempts\\ba77baf7ff6acf661770\\rows.json",
+      "copy": "noise_rows.json",
+      "sha256": "891ab71688399ee5e5607a7629940297fc385659a58cb09418de3a658850eaa8",
+      "bytes": 3315628
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase9_deployment_noise\\attempts\\ba77baf7ff6acf661770\\config.json",
+      "copy": "noise_config.json",
+      "sha256": "ccb076984bbc9a8fcf5f726aee43289c2f248693bc2db64eecf79f1de56818c5",
+      "bytes": 1340
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase10_reliability_floors\\current.json",
+      "copy": "floors_current.json",
+      "sha256": "afdb33ac50a16ba1e3fee9843cf2729b836a6799b57d83e5965f356069cab899",
+      "bytes": 392
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase10_reliability_floors\\attempts\\20260906T233127Z_af124815\\manifest.json",
+      "copy": "floors_manifest.json",
+      "sha256": "dbb295c49c0ac4d4e86d3ca9f953b02db3d92258b966b257fae893b996cd12c1",
+      "bytes": 250857
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase10_reliability_floors\\attempts\\20260906T233127Z_af124815\\summary.json",
+      "copy": "floors_summary.json",
+      "sha256": "4af717e5cc867a46926437b0147e35c3278ea5e48c4c2892433aa8469be3606f",
+      "bytes": 431
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase10_reliability_floors\\attempts\\20260906T233127Z_af124815\\rows.json",
+      "copy": "floors_rows.json",
+      "sha256": "526cef85ae9f5cfaed037b92f0574cbeeee4f3cb2417b0c92b76dfb04f03503f",
+      "bytes": 7520811
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase10_reliability_floors\\attempts\\20260906T233127Z_af124815\\config.json",
+      "copy": "floors_config.json",
+      "sha256": "26768a078a4e3b2a281fb33047890e914443301e4831776053e998941c9f7860",
+      "bytes": 1272
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase10_reliability_floors\\attempts\\20260906T233127Z_af124815\\report.md",
+      "copy": "floors_report.md",
+      "sha256": "2a43d6efb095b9eb17d12a903f7767b90c0c44ff25000b00ea6b5d8f44df7ec1",
+      "bytes": 1213
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\current.json",
+      "copy": "04c_current.json",
+      "sha256": "402f68b02de4dfdbf9671d242ad3ca3b69b56ec1f8513556d55761f2433ca4bd",
+      "bytes": 369
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\attempts\\df47d1e42b124b4379d9\\manifest.json",
+      "copy": "04c_manifest.json",
+      "sha256": "cc9069332fd736d2d3c5ddaa69bfdad2a40022c3101e42996d4867f2a424869c",
+      "bytes": 422222
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\attempts\\df47d1e42b124b4379d9\\paired.json",
+      "copy": "04c_paired.json",
+      "sha256": "3a9d16effcfe5c46bd1de6720211aef89fd1db9cd5927bbc966e6d01439be790",
+      "bytes": 35783
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\attempts\\df47d1e42b124b4379d9\\rows.json",
+      "copy": "04c_rows.json",
+      "sha256": "957dd3254579babd0a141d57ded07a8a93819fc0912782e2eddef47d096f5a36",
+      "bytes": 1255338
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\attempts\\df47d1e42b124b4379d9\\config.json",
+      "copy": "04c_config.json",
+      "sha256": "a9a9bbe2b6d6579ebdf3177be328a785c6455b35d4146cef8773b2d6b34b4c2a",
+      "bytes": 942
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\attempts\\df47d1e42b124b4379d9\\report.md",
+      "copy": "04c_report.md",
+      "sha256": "aee0f23f55e6f7193fb150d33b8a3f71f61c314a22ec936dd05f327e58d72006",
+      "bytes": 989
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase12_independent_waveforms\\execution\\current.json",
+      "copy": "synthetic_current.json",
+      "sha256": "9fdbe88660e69aeb840337295b87351625288207b7836be68c5cf3a75a39991a",
+      "bytes": 355
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase12_independent_waveforms\\execution\\attempts\\20260907T014319Z_2922fa72\\manifest.json",
+      "copy": "synthetic_manifest.json",
+      "sha256": "f4fbe4f4cbedb080e2c30ccd6b4d04af5c725200dae9fc5d09767fc69cd3179b",
+      "bytes": 20111
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase12_independent_waveforms\\execution\\attempts\\20260907T014319Z_2922fa72\\summary.json",
+      "copy": "synthetic_summary.json",
+      "sha256": "5419b5f4e222204f3ab9fc3dc86b5c6a6325864d0dfbfc578057e3ba452a1cc3",
+      "bytes": 278
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase12_independent_waveforms\\execution\\attempts\\20260907T014319Z_2922fa72\\paired.json",
+      "copy": "synthetic_paired.json",
+      "sha256": "11637630f3cc005142ed6f20d72f65fb4bc860cae9e79fd5eb53ea50fe33afd3",
+      "bytes": 7925283
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase12_independent_waveforms\\execution\\attempts\\20260907T014319Z_2922fa72\\rows.json",
+      "copy": "synthetic_rows.json",
+      "sha256": "c5e84e21f84dc3358e31f62dd567a395d6634a32e1f6373cf103daf8c859b95f",
+      "bytes": 12641563
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase12_independent_waveforms\\execution\\attempts\\20260907T014319Z_2922fa72\\protocol.json",
+      "copy": "synthetic_protocol.json",
+      "sha256": "5be1b0190446af1ec7d4899a0f8f19aa7da3cae961965d4a63c56ea3d7971835",
+      "bytes": 8767
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase3_conditioning\\conditioning_summary.csv",
+      "copy": "conditioning_conditioning_summary.csv",
+      "sha256": "514404dbc3f1c6feca6876b18a25f609dc08bd4d937e3df07e574c022ffa1a58",
+      "bytes": 7655
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase3_conditioning\\conditioning_summary.json",
+      "copy": "conditioning_conditioning_summary.json",
+      "sha256": "07201a5726bb0f58f4c23100d58e558aec86eb6f215a32eaf6b264ca156e8fed",
+      "bytes": 42613
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase3_conditioning\\paired_statistics.json",
+      "copy": "conditioning_paired_statistics.json",
+      "sha256": "5038792108afc04079b2cd09c8818c5a2edba6276bd3908dfd3a8826085e2f80",
+      "bytes": 30029
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase3_conditioning\\per_snr_metrics.csv",
+      "copy": "conditioning_per_snr_metrics.csv",
+      "sha256": "4d13f33a0c90e7c9bb5243187307bdb5a6fed2fb38752e1db59a4867b2239565",
+      "bytes": 254660
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase3_conditioning\\complexity.csv",
+      "copy": "conditioning_complexity.csv",
+      "sha256": "14b74897582a2d57ec3edfd8909b2cb1ecea79e69c9b2dc3e9b52e9d9eedec56",
+      "bytes": 12244
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase3_conditioning\\mechanism_report.md",
+      "copy": "conditioning_mechanism_report.md",
+      "sha256": "58a526265704cad715bf941a74ed8545d4644995831661f79d3e74f57e032580",
+      "bytes": 14153
+    },
+    {
+      "source": "AWN\\.worktrees\\phase2-v2\\results\\v2\\phase3_conditioning\\manifest.json",
+      "copy": "conditioning_manifest.json",
+      "sha256": "bd669bfd86e3ec5d4b1899e70a12920bd8701919a9d96fcf8c43521074075320",
+      "bytes": 35683
+    }
+  ]
+}

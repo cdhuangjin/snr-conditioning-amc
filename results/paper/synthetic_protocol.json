@@ -1,0 +1,129 @@
+{
+  "config": {
+    "architecture": {
+      "in_channels": 64,
+      "kernel_size": 3,
+      "latent_dim": 320,
+      "num_classes": 6,
+      "num_levels": 1,
+      "num_snr_bins": 20,
+      "regu_approx": 0.01,
+      "regu_details": 0.01,
+      "snr_embedding_dim": 8
+    },
+    "baseline_source_sha256": "5d653b1bf69ca8356eb9cb6bf338d0c1aa8de1cc67b17f4e46c5deb9387aad0e",
+    "checkpoint_selection": "validation_A_accuracy_latest_equal_best",
+    "classifier_training_condition": "oracle_A_only",
+    "deployment_estimator_selection": "train_A_fit_validation_A_MAE_larger_alpha_tie_no_refit",
+    "device": "cuda",
+    "evaluation_batch_size": 64,
+    "feature_chunk_size": 128,
+    "formal_latent_frames": 120000,
+    "formal_observations": 144000,
+    "formal_training_runs": 15,
+    "models": [
+      "M0",
+      "M6",
+      "CLDNN"
+    ],
+    "output": "results/v2/phase12_independent_waveforms/execution",
+    "phase11_current": "results/v2/phase11_cross_dataset_04c/current.json",
+    "phase6_current": "results/v2/phase6_preprocessing/current.json",
+    "pilot_counts": [
+      0,
+      8,
+      16,
+      32,
+      64
+    ],
+    "protocol": "phase12_execution_v1",
+    "required_phase11_shift_status": "PENDING_PHASE12_CHANNEL",
+    "ridge_alphas": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "runtime_adapter": "reflection_pad1d_slice_flip_cat_v1",
+    "schema_version": 1,
+    "seeds": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "torch_num_threads": 24,
+    "training": {
+      "batch_size": 128,
+      "lr": 0.001,
+      "max_epochs": 100,
+      "optimizer": "Adam"
+    }
+  },
+  "environment": {
+    "cuda": "13.0",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5060",
+    "numpy": "2.4.4",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "torch": "2.13.0+cu130"
+  },
+  "gates": {
+    "phase11_attempt": "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\attempts\\df47d1e42b124b4379d9",
+    "phase11_current": {
+      "attempt": "results/v2/phase11_cross_dataset_04c/attempts/df47d1e42b124b4379d9",
+      "manifest_sha256": "cc9069332fd736d2d3c5ddaa69bfdad2a40022c3101e42996d4867f2a424869c",
+      "status": "COMPLETE",
+      "validation": {
+        "distribution_shift_status": "PENDING_PHASE12_CHANNEL",
+        "evaluation_rows": 15,
+        "status": "VALIDATED",
+        "training_runs": 10
+      }
+    },
+    "phase11_validation": {
+      "distribution_shift_status": "PENDING_PHASE12_CHANNEL",
+      "evaluation_rows": 15,
+      "status": "VALIDATED",
+      "training_runs": 10
+    },
+    "phase6_data_attempt": "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\results\\v2\\phase6_preprocessing\\attempts\\20260906T004123Z_a6acf299",
+    "source_files": {
+      "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\attempts\\df47d1e42b124b4379d9\\manifest.json": "cc9069332fd736d2d3c5ddaa69bfdad2a40022c3101e42996d4867f2a424869c",
+      "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\current.json": "402f68b02de4dfdbf9671d242ad3ca3b69b56ec1f8513556d55761f2433ca4bd",
+      "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\results\\v2\\phase6_preprocessing\\current.json": "445cb2afff77211ff425922ad2c6d09402ecd7ab7e8065f111b62b2699228f4f"
+    }
+  },
+  "smoke": false,
+  "sources": {
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\configs\\v2\\phase12.yaml": "8fbf8eb94f0348af8d412e0ab409d73b4c4a4c1e30a0cb907618823a2578b106",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\configs\\v2\\phase12_execution.yaml": "da32b8d638ad44e9040d4b171093978caca03d2690b568fb3e8a5da6c061af44",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\models\\lifting.py": "2d78818594c57be7f00e044d0b8bdc647731dbf0eca2b50dc7ea145a434ee6d7",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\models\\model.py": "c325718aaa385068bd72d16780c47d4f167c899a6afcd3328aff0fccd63fe9f3",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\models\\model_conditioning.py": "4a6b78ea8549fd7063cde85c6aa65a23704ff2d217fe70ad6d5cff1678439bf2",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\attempts\\df47d1e42b124b4379d9\\manifest.json": "cc9069332fd736d2d3c5ddaa69bfdad2a40022c3101e42996d4867f2a424869c",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\results\\v2\\phase11_cross_dataset_04c\\current.json": "402f68b02de4dfdbf9671d242ad3ca3b69b56ec1f8513556d55761f2433ca4bd",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\results\\v2\\phase6_preprocessing\\attempts\\20260906T004123Z_a6acf299\\legacy_identity\\snr_ridge_state.json": "ff965c5d2f1328a88d73b53e3ab071b915ce0df9e2b6566879b05d05502112a3",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\results\\v2\\phase6_preprocessing\\current.json": "445cb2afff77211ff425922ad2c6d09402ecd7ab7e8065f111b62b2699228f4f",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\scripts\\v2\\run_phase12.py": "e86c5df1d028f61a613c37f3f8a3a6d156bc2b112a4a29077557e8a3bfb7dcbe",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase11\\runner.py": "2cc303814a48774e4524a373d6743da998f39ba0cbf8515e14bd59066d105b9f",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase12\\__init__.py": "c1f595a3c16960086132de1bcfbed97a44fc744a22cd258e3e87d38da8d55b1c",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase12\\assembly.py": "3d68588fd111e1053d911fd1a37058a7148600e1f4e16e173dea24b76e4f5881",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase12\\baseline_audit.py": "b3851d7045741444987be07eba55c661157a186daa8e410e236d4f830e8b5391",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase12\\core.py": "d8114e96346aa57ad86ec3279b24658a62d28fd133870e394654452872e264e8",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase12\\execution.py": "29159bc9f447e8384b95c05d137144c48aa5da3d76214ffcaf50b948ca0d185f",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase12\\reporting.py": "d01ddbe546dca8c30528e2ce788f8fd4925c31f29a5ff51ce7f1ac01bbb6f6cd",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase12\\runner.py": "94536986968f51631f55ab47bb51e052a1a819eb4b89804cb51db3ec56186c0c",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase12\\smoke.py": "f63127bda47a76a502ca1b2a23d4bcc1eba0b18071cf4e7c89f11924660791da",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase6\\audit.py": "d038d496438a2df601834b594a9f8a7ad45239d1838fdc152a59b972fa396e1d",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase6\\composite.py": "2155b2401dbe294e6db6b274f3f9b8459cec369129f74a6c57e9f8eb6ffe2b2c",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\controls.py": "be157b969ae4ef079082765e118fdb0272a27165057b8a07a666a6a2354bf9a4",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\deterministic_padding.py": "6b54ef16f81c1498e683ea542e1076116974231b2b69ce1607fb750aacf50f9d",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase8\\core.py": "294a8848c834c79704a11ef3c32ca1a14eb75017204aabe8eb0652bd196e2cc5",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase8\\evidence.py": "e357ce25c3f22eac495908d94ad2a2264e5f1b12488b509eecfc0bbec956a95b",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\experiments\\train_baselines.py": "5d653b1bf69ca8356eb9cb6bf338d0c1aa8de1cc67b17f4e46c5deb9387aad0e"
+  }
+}

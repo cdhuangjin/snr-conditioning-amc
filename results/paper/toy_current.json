@@ -1,0 +1,11 @@
+{
+  "attempt": "results/v2/phase5_toy/attempts/20260906T003348Z_80cc25c7",
+  "manifest_sha256": "a2555bcc13774927db6bb29c239b0e7a4610283721e3075d947be5faa42772b9",
+  "status": "COMPLETE",
+  "validation": {
+    "datasets": 175,
+    "evaluation_rows": 350,
+    "files": 186,
+    "status": "VALIDATED"
+  }
+}

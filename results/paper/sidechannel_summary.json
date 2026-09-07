@@ -1,0 +1,12 @@
+{
+  "checkpoint_conditions": 50,
+  "e4_independent_fits": 1,
+  "limits": [
+    "E3 uses true strata and is diagnostic, not deployable.",
+    "Across-class donors exclude same-class examples; this is not proof of independence.",
+    "E4 is one shared fixed-split fit, not five independent fits.",
+    "In-dataset estimates do not establish unseen-channel performance."
+  ],
+  "phase12_unseen_channel_required": true,
+  "status": "COMPUTED"
+}

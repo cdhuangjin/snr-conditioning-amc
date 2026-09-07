@@ -1,0 +1,35 @@
+schema_version: 1
+source:
+  phase3_root: results/v2/phase3
+  phase3_ledger: results/v2/phase3/phase3_ledger.json
+  phase3_manifest: manifest.json
+  phase3_config: configs/v2/phase3.yaml
+expected:
+  models: [M0, M1, M2, M3, M4, M5, M6, M7]
+  seeds: [2022, 2023, 2024, 2025, 2026]
+  snr_values_db: [-20, -18, -16, -14, -12, -10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+  num_classes: 11
+metrics:
+  gap_definition: prediction_concentration - balanced_accuracy
+  normalized_entropy_base: 11
+  ece:
+    type: top_label_equal_width
+    bins: 15
+    interval: '[0,1]'
+    last_bin_right_inclusive: true
+  distribution_indices: [hhi, gini]
+threshold_sensitivity:
+  concentration_cutoffs: [0.20, 0.30, 0.40, 0.50]
+  ba_gap_cutoffs: [0.05, 0.10, 0.20, 0.30]
+  snr_ranges:
+    severe_low_le_minus12: [-20, -18, -16, -14, -12]
+    low_le_minus10: [-20, -18, -16, -14, -12, -10]
+    registered_low_le_minus8: [-20, -18, -16, -14, -12, -10, -8]
+features:
+  always_models: [M0, M3]
+  stronger_candidates: [M4, M5, M6, M7]
+  stronger_selection_metric: best_val_accuracy
+  hook_id: final_conditioned_classifier_input_v1
+  hook_semantics: final classifier input after the declared conditioner; M0 uses pooled backbone features
+outputs:
+  root: results/v2/phase4_collapse_metrics

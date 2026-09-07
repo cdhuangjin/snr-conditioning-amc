@@ -1,0 +1,11 @@
+schema_version: 1
+seeds: [2022, 2023, 2024, 2025, 2026]
+segments:
+  low: {max_db: -8}
+  mid: {min_db: -6, max_db: -2}
+  high: {min_db: 0}
+paths:
+  results: results/v2
+  figures: figures/v2
+  splits: splits/v2
+reproduction_tolerance_pp: 0.5

@@ -1,0 +1,11 @@
+{
+  "attempt": "results/v2/phase12_independent_waveforms/execution/attempts/20260907T014319Z_2922fa72",
+  "manifest_sha256": "f4fbe4f4cbedb080e2c30ccd6b4d04af5c725200dae9fc5d09767fc69cd3179b",
+  "status": "COMPLETE",
+  "validation": {
+    "evaluation_rows": 210,
+    "scientific": true,
+    "status": "VALIDATED",
+    "training_runs": 15
+  }
+}

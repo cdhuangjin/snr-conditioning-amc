@@ -1,0 +1,615 @@
+{
+  "erm": {
+    "ftol": 1e-12,
+    "gtol": 1e-08,
+    "l2": 0.0001,
+    "maxiter": 1000
+  },
+  "n_test": 6000,
+  "n_train": 3000,
+  "schema_version": 1,
+  "seeds": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "settings": [
+    {
+      "asymmetry": 1.0,
+      "family": "symmetric",
+      "global_gain": 1.0,
+      "id": "sym_noise0.25",
+      "noise": 0.25,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "symmetric",
+      "global_gain": 1.0,
+      "id": "sym_noise1",
+      "noise": 1,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "symmetric",
+      "global_gain": 1.0,
+      "id": "sym_noise4",
+      "noise": 4,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "symmetric",
+      "global_gain": 1.0,
+      "id": "sym_noise16",
+      "noise": 16,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym1_noise1",
+      "noise": 1,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym1_noise4",
+      "noise": 4,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym1_noise16",
+      "noise": 16,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 2,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym2_noise1",
+      "noise": 1,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 2,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym2_noise4",
+      "noise": 4,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 2,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym2_noise16",
+      "noise": 16,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 4,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym4_noise1",
+      "noise": 1,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 4,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym4_noise4",
+      "noise": 4,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 4,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym4_noise16",
+      "noise": 16,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "prior_rotation0",
+      "noise": 16,
+      "priors": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "prior_rotation1",
+      "noise": 16,
+      "priors": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "rotation": 1,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "prior_rotation2",
+      "noise": 16,
+      "priors": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "rotation": 2,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 4,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym_rotation0",
+      "noise": 4,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 4,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym_rotation1",
+      "noise": 4,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 1,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 4,
+      "family": "asymmetric",
+      "global_gain": 1.0,
+      "id": "asym_rotation2",
+      "noise": 4,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 2,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "gain_scale",
+      "global_gain": 0.25,
+      "id": "global_gain0.25",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "gain_scale",
+      "global_gain": 1,
+      "id": "global_gain1",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "gain_scale",
+      "global_gain": 4,
+      "id": "global_gain4",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "gain_scale",
+      "global_gain": 1.0,
+      "id": "signal_gain0.25",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 0.25,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "gain_scale",
+      "global_gain": 1.0,
+      "id": "signal_gain1",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "gain_scale",
+      "global_gain": 1.0,
+      "id": "signal_gain4",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 4,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "sharpening_separability",
+      "global_gain": 1.0,
+      "id": "separation0",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "sharpening_separability",
+      "global_gain": 1.0,
+      "id": "separation0.25",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 0.25,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "sharpening_separability",
+      "global_gain": 1.0,
+      "id": "separation1",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "sharpening_separability",
+      "global_gain": 1.0,
+      "id": "separation4",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 4,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "sharpening_separability",
+      "global_gain": 1.0,
+      "id": "temperature0.25",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 0.25,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "sharpening_separability",
+      "global_gain": 1.0,
+      "id": "temperature1",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 1,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "sharpening_separability",
+      "global_gain": 1.0,
+      "id": "temperature4",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 1.0,
+      "signal_gain": 1.0,
+      "temperature": 4,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "symmetric",
+      "global_gain": 1.0,
+      "id": "zero_tie_first",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "first"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "symmetric",
+      "global_gain": 1.0,
+      "id": "zero_tie_last",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "last"
+    },
+    {
+      "asymmetry": 1.0,
+      "family": "symmetric",
+      "global_gain": 1.0,
+      "id": "zero_tie_random",
+      "noise": 1.0,
+      "priors": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rotation": 0,
+      "separation": 0,
+      "signal_gain": 1.0,
+      "temperature": 1.0,
+      "tie_rule": "random"
+    }
+  ]
+}

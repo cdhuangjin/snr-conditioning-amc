@@ -1,0 +1,24 @@
+schema_version: 1
+protocol: phase12_execution_v1
+phase11_current: results/v2/phase11_cross_dataset_04c/current.json
+phase6_current: results/v2/phase6_preprocessing/current.json
+required_phase11_shift_status: PENDING_PHASE12_CHANNEL
+output: results/v2/phase12_independent_waveforms/execution
+models: [M0, M6, CLDNN]
+seeds: [2022, 2023, 2024, 2025, 2026]
+baseline_source_sha256: 5d653b1bf69ca8356eb9cb6bf338d0c1aa8de1cc67b17f4e46c5deb9387aad0e
+device: cuda
+torch_num_threads: 24
+evaluation_batch_size: 64
+feature_chunk_size: 128
+ridge_alphas: [0.01, 0.1, 1.0, 10.0, 100.0]
+training: {optimizer: Adam, lr: 0.001, batch_size: 128, max_epochs: 100}
+architecture: {num_classes: 6, num_levels: 1, in_channels: 64, kernel_size: 3, latent_dim: 320, regu_details: 0.01, regu_approx: 0.01, num_snr_bins: 20, snr_embedding_dim: 8}
+runtime_adapter: reflection_pad1d_slice_flip_cat_v1
+formal_observations: 144000
+formal_latent_frames: 120000
+formal_training_runs: 15
+pilot_counts: [0, 8, 16, 32, 64]
+checkpoint_selection: validation_A_accuracy_latest_equal_best
+classifier_training_condition: oracle_A_only
+deployment_estimator_selection: train_A_fit_validation_A_MAE_larger_alpha_tie_no_refit

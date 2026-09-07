@@ -1,0 +1,11 @@
+{
+  "checkpoints": 10,
+  "estimator_scope": "supervised dataset-trained Phase6 ridge, not a physical pilot estimator",
+  "evaluations": 80,
+  "five_seed_one_partition": true,
+  "no_floor_role": "matched reproduction of Phase8 E1/E2",
+  "phase9_distribution_shift_status": "PENDING_PHASE11_12",
+  "status": "COMPUTED",
+  "terms": "tested reliability floor; no universal threshold claim",
+  "test_selected_floor": false
+}

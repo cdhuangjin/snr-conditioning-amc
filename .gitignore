@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+*.pt
+*.pkl
+*.dat
+*.hdf5
+release-assets/
+research/phase2-v2/results/
+research/phase2-v2/reports/
+research/phase2-v2/manifest.json
+research/phase2-v2/.manifest.json.lock

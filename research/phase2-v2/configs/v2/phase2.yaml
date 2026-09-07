@@ -1,0 +1,38 @@
+schema_version: 1
+dataset:
+  id: RML2016.10a
+  path: data/RML2016.10a_dict.pkl
+split:
+  metadata: splits/v2/RML2016.10a_seed2022.json
+  hash: 42450053b13189fdd4ca1ab859e26a5ff61c93b8cdb26bff48c76fde7b1f54a9
+seeds: [2022, 2023, 2024, 2025, 2026]
+device: cpu
+training:
+  optimizer: Adam
+  lr: 0.001
+  batch_size: 128
+  max_epochs: 100
+architecture:
+  num_classes: 11
+  num_levels: 1
+  in_channels: 64
+  kernel_size: 3
+  latent_dim: 320
+  regu_details: 0.01
+  regu_approx: 0.01
+  num_snr_bins: 20
+  snr_embedding_dim: 8
+evaluation_batch_size: 64
+treatments:
+  plain: {conditioner: none, loss: cross_entropy, snr_reweighting: none}
+  conditioned: {conditioner: true_snr_embedding, loss: cross_entropy, snr_reweighting: none}
+  focal: {conditioner: none, loss: focal, gamma: 2.0, snr_reweighting: none}
+  snr_reweighted:
+    conditioner: none
+    loss: cross_entropy
+    snr_reweighting: fixed_segment_weights
+    segment_weights: {low: 2.0, mid: 1.0, high: 0.5}
+outputs:
+  root: results/v2/phase2
+  manifest: manifest.json
+  progress: reports/v2_progress.md

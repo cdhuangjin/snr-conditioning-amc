@@ -1,0 +1,67 @@
+{
+  "arms": [
+    "clean",
+    "generic",
+    "empirical_snr"
+  ],
+  "cliff": {
+    "boundary_epsilon_db": 0.001,
+    "deltas_db": [
+      -12,
+      -8,
+      -4,
+      -2,
+      -1,
+      -0.1,
+      0,
+      0.1,
+      1,
+      2,
+      4,
+      8,
+      12
+    ],
+    "models": [
+      "M3",
+      "M6"
+    ],
+    "origins": [
+      "oracle",
+      "estimated"
+    ]
+  },
+  "cpu_threads": 24,
+  "device": "cuda",
+  "distribution_shift_status": "PENDING_PHASE11_12",
+  "evaluation_batch_size": 64,
+  "model": "M6",
+  "noise": {
+    "alpha_source": "frozen_phase6_validation_selected",
+    "condition_rng_stream": 9,
+    "empirical_stratum": "true_snr_only",
+    "feature_mode": "legacy_identity",
+    "fold_seed": 2022,
+    "folds": 5,
+    "generic_std_db": 2.0
+  },
+  "output": "results/v2/phase9_deployment_noise",
+  "phase8_current": "results/v2/phase8_sidechannel/current.json",
+  "runtime_adapter": "reflection_pad1d_slice_flip_cat_v1",
+  "schema_version": 1,
+  "seeds": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "training": {
+    "batch_size": 128,
+    "checkpoint_tie": "latest_epoch",
+    "lr": 0.001,
+    "max_epochs": 100,
+    "optimizer": "Adam",
+    "validation_condition": "frozen_phase6_estimate",
+    "validation_metric": "accuracy"
+  }
+}

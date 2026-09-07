@@ -1,0 +1,16 @@
+schema_version: 1
+seeds: [2022, 2023, 2024, 2025, 2026]
+models: [M3, M6]
+conditions: [E1, E2, E3_global, E3_within_snr, E3_across_class]
+phase6_current: results/v2/phase6_preprocessing/current.json
+phase7_gate: results/v2/phase7_controls/gate.json
+estimator_mode: legacy_identity
+estimator_target: snr_ridge
+batch_size: 64
+torch_num_threads: 24
+device: cpu
+e4:
+  representations: [scalar, cubic, rbf2, rbf6]
+  cs: [0.01, 1.0, 100.0]
+  max_iter: 2000
+  sidechannel_margin: 0.01

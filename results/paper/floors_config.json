@@ -1,0 +1,50 @@
+{
+  "batch_size": 64,
+  "conditions": [
+    "oracle",
+    "estimate"
+  ],
+  "device": "cpu",
+  "error_strata_abs_db": [
+    0,
+    2,
+    4,
+    8
+  ],
+  "floor_order": "range_clip_then_float32_then_floor_then_phase8_nearest_bin",
+  "floors_db": [
+    null,
+    -10,
+    -8,
+    -6
+  ],
+  "midpoint_rule": "lower_bin_on_equal_distance",
+  "models": [
+    "M3",
+    "M6"
+  ],
+  "no_floor_parity": {
+    "atol": 1e-07,
+    "exact_argmax": true,
+    "rtol": 1e-06
+  },
+  "oracle_error_semantics": "zero_by_construction_not_pooled_with_estimates",
+  "output": "results/v2/phase10_reliability_floors",
+  "phase6_current": "results/v2/phase6_preprocessing/current.json",
+  "phase7_gate": "results/v2/phase7_controls/gate.json",
+  "phase8_current": "results/v2/phase8_sidechannel/current.json",
+  "phase9_current": "results/v2/phase9_deployment_noise/current.json",
+  "phase9_required_distribution_shift_status": "PENDING_PHASE11_12",
+  "raw_error_semantics": "source_condition_minus_true_snr_before_range_clip_and_floor",
+  "runner_version": "phase10-tested-floors/1",
+  "schema_version": 1,
+  "seeds": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "torch_num_threads": 24,
+  "unchanged_condition_logits": "exact"
+}

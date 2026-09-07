@@ -1,0 +1,85 @@
+schema_version: 1
+dataset:
+  id: RML2016.10a
+  path: data/RML2016.10a_dict.pkl
+split:
+  metadata: splits/v2/RML2016.10a_seed2022.json
+  hash: 42450053b13189fdd4ca1ab859e26a5ff61c93b8cdb26bff48c76fde7b1f54a9
+seeds: [2022, 2023, 2024, 2025, 2026]
+device: cpu
+preprocessing:
+  input_layout: NCT (I/Q channels, time)
+  signal_dtype: float32
+  transforms: []
+training:
+  optimizer: Adam
+  lr: 0.001
+  batch_size: 128
+  max_epochs: 100
+architecture:
+  num_classes: 11
+  num_levels: 1
+  in_channels: 64
+  kernel_size: 3
+  latent_dim: 320
+  regu_details: 0.01
+  regu_approx: 0.01
+  num_snr_bins: 20
+  snr_embedding_dim: 8
+evaluation_batch_size: 64
+snr:
+  snr_min_db: -20
+  snr_max_db: 18
+  values_db: [-20, -18, -16, -14, -12, -10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+  scalar_normalization:
+    expression: z = (snr_db - (-1)) / 19
+    input_range_db: [-20, 18]
+    output_range: [-1, 1]
+snr_bands:
+  low: {max_db: -8}
+  mid: {min_db: -6, max_db: -2}
+  high: {min_db: 0}
+runner_call:
+  api: forward_batch
+  arguments: [signals, snr_db, snr_bin]
+models:
+  M0:
+    conditioner: none
+  M1:
+    conditioner: normalized_scalar_concat
+    condition_dim: 1
+    location: attended_pooled_features
+  M2:
+    conditioner: one_hot_snr_concat
+    condition_dim: 20
+    location: attended_pooled_features
+  M3:
+    conditioner: learned_snr_embedding_concat
+    condition_dim: 8
+    location: attended_pooled_features
+    checkpoint_compatibility: Phase 2 AWNSNR when num_classes, num_levels, in_channels, kernel_size, latent_dim, num_snr_bins, and snr_embedding_dim match
+    capacity_semantics: Embedding plus immediate linear concatenation supplies z-dependent additive terms, not arbitrary per-bin feature normals.
+  M4:
+    conditioner: class_logit_bias
+    feature_interaction: none
+  M5:
+    conditioner: film
+    snr_representation: normalized_scalar
+    function: gamma(z) * pooled_features + beta(z)
+    modulation_dimension: 128
+  M6:
+    conditioner: feature_gate
+    snr_representation: normalized_scalar
+    function: 2 * sigmoid(W z + b)
+    range: (0, 2)
+    dimension: 128
+  M7:
+    conditioner: per_snr_classifier_heads
+    shared_feature_extractor: true
+    head_count: 20
+    head_architecture: 128 -> 320 -> 11
+    role: capacity_upper_control
+outputs:
+  root: results/v2/phase3
+  manifest: manifest.json
+  progress: reports/v2_progress.md

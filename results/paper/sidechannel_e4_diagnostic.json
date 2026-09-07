@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.2280681818181818,
+  "accuracy_wilson95": [
+    0.2241715011482243,
+    0.2320123408376175
+  ],
+  "chance": 0.09090909090909091,
+  "limitation": "Wilson interval treats examples as independent; waveform dependence may reduce effective sample size.",
+  "n_independent_fits": 1,
+  "requires_phase12_unseen_channel": true,
+  "status": "SIDE_CHANNEL_DETECTED",
+  "threshold": 0.1009090909090909,
+  "train_majority_class": 0,
+  "train_majority_test_accuracy": 0.09090909090909091
+}

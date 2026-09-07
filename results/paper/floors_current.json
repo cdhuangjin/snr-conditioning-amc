@@ -1,0 +1,12 @@
+{
+  "attempt": "results/v2/phase10_reliability_floors/attempts/20260906T233127Z_af124815",
+  "manifest_sha256": "dbb295c49c0ac4d4e86d3ca9f953b02db3d92258b966b257fae893b996cd12c1",
+  "status": "COMPLETE",
+  "validation": {
+    "checkpoints": 10,
+    "evaluations": 80,
+    "files": 179,
+    "phase9_distribution_shift_status": "PENDING_PHASE11_12",
+    "status": "VALIDATED"
+  }
+}

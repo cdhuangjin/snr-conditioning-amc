@@ -1,0 +1,19 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "PyYAML": "6.0.3",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.9",
+    "h5py": "3.16.0",
+    "tqdm": "4.70.0",
+    "filelock": "3.29.0",
+    "threadpoolctl": "3.6.0",
+    "seaborn": "0.13.2",
+    "pytest": "9.1.1",
+    "torch": "2.13.0+cu130"
+  },
+  "scope": "Environment observed during release checks; not a claim of a fresh dependency installation."
+}

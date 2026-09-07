@@ -1,0 +1,74 @@
+{
+  "candidates": [
+    {
+      "C": 0.01,
+      "representation": "scalar",
+      "validation_macro_f1": 0.07427668708671156
+    },
+    {
+      "C": 1.0,
+      "representation": "scalar",
+      "validation_macro_f1": 0.07439670980927254
+    },
+    {
+      "C": 100.0,
+      "representation": "scalar",
+      "validation_macro_f1": 0.07439708533453702
+    },
+    {
+      "C": 0.01,
+      "representation": "cubic",
+      "validation_macro_f1": 0.1293463290237472
+    },
+    {
+      "C": 1.0,
+      "representation": "cubic",
+      "validation_macro_f1": 0.13085386428880746
+    },
+    {
+      "C": 100.0,
+      "representation": "cubic",
+      "validation_macro_f1": 0.13186184250873112
+    },
+    {
+      "C": 0.01,
+      "representation": "rbf2",
+      "validation_macro_f1": 0.20035534267644453
+    },
+    {
+      "C": 1.0,
+      "representation": "rbf2",
+      "validation_macro_f1": 0.19847173832407733
+    },
+    {
+      "C": 100.0,
+      "representation": "rbf2",
+      "validation_macro_f1": 0.1996944770734582
+    },
+    {
+      "C": 0.01,
+      "representation": "rbf6",
+      "validation_macro_f1": 0.1829563380436155
+    },
+    {
+      "C": 1.0,
+      "representation": "rbf6",
+      "validation_macro_f1": 0.19388747343524082
+    },
+    {
+      "C": 100.0,
+      "representation": "rbf6",
+      "validation_macro_f1": 0.20153256589213633
+    }
+  ],
+  "fit_partition": "train",
+  "n_independent_fits": 1,
+  "refit_train_validation": false,
+  "selection_partition": "validation",
+  "tie_break": [
+    "validation_macro_f1_desc",
+    "representation_order_asc",
+    "C_asc"
+  ],
+  "winner_index": 11
+}

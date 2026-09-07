@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "attempt": "results/v2/phase11_cross_dataset_04c/attempts/df47d1e42b124b4379d9",
+  "manifest_sha256": "cc9069332fd736d2d3c5ddaa69bfdad2a40022c3101e42996d4867f2a424869c",
+  "validation": {
+    "status": "VALIDATED",
+    "training_runs": 10,
+    "evaluation_rows": 15,
+    "distribution_shift_status": "PENDING_PHASE12_CHANNEL"
+  }
+}

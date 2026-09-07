@@ -1,0 +1,43 @@
+{
+  "batch_size": 64,
+  "conditions": [
+    "E1",
+    "E2",
+    "E3_global",
+    "E3_within_snr",
+    "E3_across_class"
+  ],
+  "device": "cpu",
+  "e4": {
+    "cs": [
+      0.01,
+      1.0,
+      100.0
+    ],
+    "max_iter": 2000,
+    "representations": [
+      "scalar",
+      "cubic",
+      "rbf2",
+      "rbf6"
+    ],
+    "sidechannel_margin": 0.01
+  },
+  "estimator_mode": "legacy_identity",
+  "estimator_target": "snr_ridge",
+  "models": [
+    "M3",
+    "M6"
+  ],
+  "phase6_current": "results/v2/phase6_preprocessing/current.json",
+  "phase7_gate": "results/v2/phase7_controls/gate.json",
+  "schema_version": 1,
+  "seeds": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "torch_num_threads": 24
+}

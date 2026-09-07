@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "kind": "phase6_bounded_scientific_composite",
+  "status": "COMPLETE",
+  "attempt": "results/v2/phase6_preprocessing/receipts/109f5882dc391f74",
+  "data_attempt": "results/v2/phase6_preprocessing/attempts/20260906T004123Z_a6acf299",
+  "manifest_sha256": "f050f64b16693a4ff141470ef1bbfeb66846ce52414c6dd6d616adb221a56e37",
+  "gate": {
+    "schema_version": 1,
+    "kind": "phase6_bounded_scientific_composite",
+    "status": "COMPLETE",
+    "attempt": "results/v2/phase6_preprocessing/receipts/109f5882dc391f74",
+    "data_attempt": "results/v2/phase6_preprocessing/attempts/20260906T004123Z_a6acf299",
+    "manifest_sha256": "f050f64b16693a4ff141470ef1bbfeb66846ce52414c6dd6d616adb221a56e37",
+    "manifest_path": "results/v2/phase6_preprocessing/receipts/109f5882dc391f74/manifest.json",
+    "stop_rule_triggered": false
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "split_hash": "fixed",
+  "class_names": [
+    "A",
+    "WBFM"
+  ],
+  "predictions": [
+    {
+      "model_id": "M0",
+      "seed": 2022,
+      "snr_db": -20.0,
+      "n": 4,
+      "true_count": [
+        2,
+        2
+      ],
+      "predicted_count": [
+        1,
+        3
+      ],
+      "true_frequency": [
+        0.5,
+        0.5
+      ],
+      "predicted_frequency": [
+        0.25,
+        0.75
+      ],
+      "errors": 1,
+      "errors_to_wbfm": 1,
+      "error_to_wbfm_share": 1.0,
+      "wbfm_recall": 1.0
+    },
+    {
+      "model_id": "M0",
+      "seed": 2023,
+      "snr_db": -20.0,
+      "n": 4,
+      "true_count": [
+        2,
+        2
+      ],
+      "predicted_count": [
+        1,
+        3
+      ],
+      "true_frequency": [
+        0.5,
+        0.5
+      ],
+      "predicted_frequency": [
+        0.25,
+        0.75
+      ],
+      "errors": 1,
+      "errors_to_wbfm": 1,
+      "error_to_wbfm_share": 1.0,
+      "wbfm_recall": 1.0
+    },
+    {
+      "model_id": "M0",
+      "seed": 2024,
+      "snr_db": -20.0,
+      "n": 4,
+      "true_count": [
+        2,
+        2
+      ],
+      "predicted_count": [
+        1,
+        3
+      ],
+      "true_frequency": [
+        0.5,
+        0.5
+      ],
+      "predicted_frequency": [
+        0.25,
+        0.75
+      ],
+      "errors": 1,
+      "errors_to_wbfm": 1,
+      "error_to_wbfm_share": 1.0,
+      "wbfm_recall": 1.0
+    },
+    {
+      "model_id": "M0",
+      "seed": 2025,
+      "snr_db": -20.0,
+      "n": 4,
+      "true_count": [
+        2,
+        2
+      ],
+      "predicted_count": [
+        1,
+        3
+      ],
+      "true_frequency": [
+        0.5,
+        0.5
+      ],
+      "predicted_frequency": [
+        0.25,
+        0.75
+      ],
+      "errors": 1,
+      "errors_to_wbfm": 1,
+      "error_to_wbfm_share": 1.0,
+      "wbfm_recall": 1.0
+    },
+    {
+      "model_id": "M0",
+      "seed": 2026,
+      "snr_db": -20.0,
+      "n": 4,
+      "true_count": [
+        2,
+        2
+      ],
+      "predicted_count": [
+        1,
+        3
+      ],
+      "true_frequency": [
+        0.5,
+        0.5
+      ],
+      "predicted_frequency": [
+        0.25,
+        0.75
+      ],
+      "errors": 1,
+      "errors_to_wbfm": 1,
+      "error_to_wbfm_share": 1.0,
+      "wbfm_recall": 1.0
+    }
+  ],
+  "features": [
+    {
+      "model_id": "M0",
+      "seed": 2022,
+      "snr_db": -20.0,
+      "between_scatter": 108.0,
+      "within_scatter": 27.0,
+      "between_within_ratio": 4.0,
+      "wbfm_centroid_distances": [
+        10.392304845413264,
+        0.0
+      ],
+      "interpretation": "Euclidean distances are comparable only within this model/seed/hook."
+    },
+    {
+      "model_id": "M0",
+      "seed": 2023,
+      "snr_db": -20.0,
+      "between_scatter": 108.0,
+      "within_scatter": 27.0,
+      "between_within_ratio": 4.0,
+      "wbfm_centroid_distances": [
+        10.392304845413264,
+        0.0
+      ],
+      "interpretation": "Euclidean distances are comparable only within this model/seed/hook."
+    },
+    {
+      "model_id": "M0",
+      "seed": 2024,
+      "snr_db": -20.0,
+      "between_scatter": 108.0,
+      "within_scatter": 27.0,
+      "between_within_ratio": 4.0,
+      "wbfm_centroid_distances": [
+        10.392304845413264,
+        0.0
+      ],
+      "interpretation": "Euclidean distances are comparable only within this model/seed/hook."
+    },
+    {
+      "model_id": "M0",
+      "seed": 2025,
+      "snr_db": -20.0,
+      "between_scatter": 108.0,
+      "within_scatter": 27.0,
+      "between_within_ratio": 4.0,
+      "wbfm_centroid_distances": [
+        10.392304845413264,
+        0.0
+      ],
+      "interpretation": "Euclidean distances are comparable only within this model/seed/hook."
+    },
+    {
+      "model_id": "M0",
+      "seed": 2026,
+      "snr_db": -20.0,
+      "between_scatter": 108.0,
+      "within_scatter": 27.0,
+      "between_within_ratio": 4.0,
+      "wbfm_centroid_distances": [
+        10.392304845413264,
+        0.0
+      ],
+      "interpretation": "Euclidean distances are comparable only within this model/seed/hook."
+    }
+  ],
+  "signals": [
+    {
+      "snr_db": -20.0,
+      "class_id": 0,
+      "n": 2,
+      "energy": 30.27027065713431,
+      "power": 1.8918919160708945,
+      "spectral_flatness": 0.6019815393400663,
+      "bandwidth_90": 0.90625,
+      "amplitude_mean": 1.2248561011765886,
+      "amplitude_std": 0.6225262813173519,
+      "peak_to_average": 3.2867150162667205,
+      "temporal_difference_power": 3.964597154727972,
+      "lag1_phase_increment_mean": -0.563007568481061
+    },
+    {
+      "snr_db": -20.0,
+      "class_id": 1,
+      "n": 2,
+      "energy": 29.32957553209424,
+      "power": 1.83309847075589,
+      "spectral_flatness": 0.6061365735274225,
+      "bandwidth_90": 0.9375,
+      "amplitude_mean": 1.2073589604923989,
+      "amplitude_std": 0.6099619454721049,
+      "peak_to_average": 3.2704625806624983,
+      "temporal_difference_power": 3.9821664807824657,
+      "lag1_phase_increment_mean": 0.2663575264787612
+    }
+  ],
+  "noise_distances": [
+    {
+      "snr_db": -20.0,
+      "class_id": 0,
+      "n": 2,
+      "psd_hellinger_mean": 0.4575383342190875,
+      "autocorrelation_l2_mean": 2.719535573276376
+    },
+    {
+      "snr_db": -20.0,
+      "class_id": 1,
+      "n": 2,
+      "psd_hellinger_mean": 0.3468058906493946,
+      "autocorrelation_l2_mean": 1.8069007791567655
+    }
+  ],
+  "noise_reference": {
+    "kind": "generated proper complex iid Gaussian, per-frame power matched",
+    "seed": 2022,
+    "scope": "raw signal statistic comparison only; no noise features extracted",
+    "not_dataset_noise": true
+  },
+  "pending_controls": [
+    "remove-WBFM retraining",
+    "label permutation retraining",
+    "class-balanced sampling retraining",
+    "equalized-statistics control",
+    "different dataset/channel dominance"
+  ]
+}

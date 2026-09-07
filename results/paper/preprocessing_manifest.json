@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "kind": "phase6_bounded_scientific_composite",
+  "status": "COMPLETE",
+  "completion_meaning": "bounded_composite_scientific_acceptance_only",
+  "fingerprint": "109f5882dc391f743a0930ad719544b24b89a24f4d7df167748e24d2aa167dd8",
+  "evidence": {
+    "original_manifest": "results/v2/phase6_preprocessing/attempts/20260906T004123Z_a6acf299/manifest.json",
+    "supplement_manifest": "results/v2/phase6_preprocessing/numerical_supplement_20260906/manifest.json",
+    "review_evidence_manifest": "results/v2/phase6_preprocessing/review_evidence/manifest.json",
+    "impact": "results/v2/phase6_preprocessing/supplement_impact.json",
+    "independent_review": "docs/phase6_numerical_gate_review.md"
+  },
+  "dependencies": {
+    "results/v2/phase6_preprocessing/attempts/20260906T004123Z_a6acf299/manifest.json": "aae56556eb5d3a92b4d901257915a20b9ca39cf887c6d9f3ab34c5f78219c343",
+    "results/v2/phase6_preprocessing/numerical_supplement_20260906/manifest.json": "58341d54af52ec6c5997875a61fc10832a162e2dc4e2ff696210a4b5681a47bf",
+    "results/v2/phase6_preprocessing/review_evidence/manifest.json": "c0396e433e6537cd047934b1640d2cb4f086473ea57d04b0e8f122e2853bcb63",
+    "results/v2/phase6_preprocessing/supplement_impact.json": "dc694cd73be73ef0cb6154768851b372e9b347c845ee118bebf12fcf5fce8df8",
+    "docs/phase6_numerical_gate_review.md": "65392a143051e7433867052beff780fa4bd0b45f231120b5add2e5a617874917",
+    "v2/phase6/composite.py": "2155b2401dbe294e6db6b274f3f9b8459cec369129f74a6c57e9f8eb6ffe2b2c",
+    "scripts/v2/publish_phase6_composite.py": "c0ca800112d5e75b314e8505f71340d1425d1454c860c16bb7f8f3c4d2cc7f44"
+  },
+  "files": {
+    "decision.json": "b3b069c0948e679b3978d2239ddec9110290a42727ec2f01416c606d492a87dd",
+    "report.md": "5286f0f3cef783e579d79d8d7d05cd46c5a88898546edf270a75904c75ba1021"
+  }
+}

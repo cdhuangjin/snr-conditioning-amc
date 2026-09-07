@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "DIAGNOSTICS_COMPLETE_CONTROLS_PENDING",
+  "split_hash": "fixed",
+  "sources": {
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\raw.npz": "1f72c1da7cc386d535aa1e0f2183b60cdbb36a4c7321a36b6b784e6b06d67d14",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\p2022.npz": "8777fe9fc6c0eda512f23ecde6e8e31af2958c71301f6ea653caa5c0787af517",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\f2022.npz": "f457da2dfc228cf2256e9857804545a75e64338c55d57dcc57c405de37f120fd",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\p2023.npz": "22f70570d2a1b59a49ef179f270c08c2b1f7e9203c83892e15b1bc7cfc932499",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\f2023.npz": "f457da2dfc228cf2256e9857804545a75e64338c55d57dcc57c405de37f120fd",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\p2024.npz": "062222da5db9574ec00aa74f1db730adbce05f4ebdee272ce2989478ef235486",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\f2024.npz": "f457da2dfc228cf2256e9857804545a75e64338c55d57dcc57c405de37f120fd",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\p2025.npz": "647f6fd9b83f6484ab051c8d389a5a9723c96eb810cba24e19e0bc590e3f3350",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\f2025.npz": "f457da2dfc228cf2256e9857804545a75e64338c55d57dcc57c405de37f120fd",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\p2026.npz": "ce8c70138edbe882a13b60f5f25734b195954175418cd64fda09359d70246ccc",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\.smoke_temp4\\test_bundle_smoke_hash_closure0\\f2026.npz": "f457da2dfc228cf2256e9857804545a75e64338c55d57dcc57c405de37f120fd",
+    "C:\\Users\\PC\\Documents\\Codex\\\u7535\u8baf\u6280\u672f\\AWN\\.worktrees\\phase2-v2\\v2\\phase7\\diagnostics.py": "c02228ddccfc4054291e6431c17a96a1067ed1abe75727dbc323a28f163e610e"
+  },
+  "artifacts": {
+    "features.csv": "072f6e215cc24dda120418fc4aff7a7b19937734ca53c65863a3478a8a713f66",
+    "noise_distances.csv": "cce0a617df5f637f85193c3fdb5db36f4bb31cedb0f669e656552e485fbe757c",
+    "noise_reference.npz": "502c9542806af37cefa1fdd71448bb961e9ec06b6fbee8b64bc70d753277b3e1",
+    "predictions.csv": "feadcf384cbee45ccc750811f5b468b7937b997b214aeaba3c541f521218c066",
+    "raw_statistics.npz": "fe9d7a2bee1db31492abb1a5b30a630b190a7bae99516d4ee3e6b2676186c554",
+    "signals.csv": "27edf7403ed35bcdc83949a2de2dbcac15735b435d87f2ffcf7c23079f4b45fb",
+    "summary.json": "ff9d0bff2e9ed7f97fa94dfd40a4829416ead78b7f8986147419b82eec2239da"
+  },
+  "pending_controls": [
+    "remove-WBFM retraining",
+    "label permutation retraining",
+    "class-balanced sampling retraining",
+    "equalized-statistics control",
+    "different dataset/channel dominance"
+  ]
+}

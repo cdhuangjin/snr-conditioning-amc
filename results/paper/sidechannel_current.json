@@ -1,0 +1,12 @@
+{
+  "attempt": "results/v2/phase8_sidechannel/attempts/20260906T094008Z_c89ef316",
+  "manifest_sha256": "a9ea56a9445b1f544411e902a8509af4ed431a33ee8d56cabe0143bee07f3c4c",
+  "status": "COMPLETE",
+  "validation": {
+    "checkpoint_conditions": 50,
+    "e4_independent_fits": 1,
+    "files": 77,
+    "raw_caches": 10,
+    "status": "VALIDATED"
+  }
+}

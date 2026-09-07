@@ -1,0 +1,30 @@
+schema_version: 1
+runner: phase6-preprocessing/1
+data_path: data/RML2016.10a_dict.pkl
+split_path: splits/v2/RML2016.10a_seed2022.json
+split_hash: 42450053b13189fdd4ca1ab859e26a5ff61c93b8cdb26bff48c76fde7b1f54a9
+output: results/v2/phase6_preprocessing
+modes: [legacy_identity, train_global, per_frame_rms]
+epsilon: 1.0e-12
+global_axes: [frame, time]
+output_dtype: float32
+probes:
+  feature_family: simple_frame_statistics
+  ridge_alphas: [0.01, 0.1, 1.0, 10.0, 100.0]
+  logistic_cs: [0.01, 0.1, 1.0, 10.0]
+  logistic_max_iter: 1000
+  logistic_tol: 0.000001
+  deterministic_seed: 2022
+  fit_partition: train
+  selection_partition: validation
+  test_policy: once_after_selection_no_refit
+streaming:
+  models: [M0, M3]
+  seeds: [2022]
+  batch_size: 1
+  rtol: 0.000001
+  atol: 0.0000001
+  exact_argmax: true
+  torch_threads: 1
+  future_test_gain: 13.0
+  order_seed: 2022
