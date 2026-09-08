@@ -39,6 +39,7 @@ The historical implementation is retained at `research/phase2-v2/`. This two-lev
 | Counterexamples | `scripts/v2/run_phase5.py`, `configs/v2/phase5.yaml` |
 | Deployment-matched training | `scripts/v2/run_phase9.py`, `configs/v2/phase9.yaml` |
 | Reliability floors | `scripts/v2/run_phase10.py`, `configs/v2/phase10.yaml` |
+| Learned TinyCNN-SNR estimator and frozen substitution | `scripts/v2/run_learned_snr.py`, `v2/lse/` |
 | RML2016.04C | `scripts/v2/prepare_04c_split.py`, `scripts/v2/run_phase11.py`, `configs/v2/phase11_04c.yaml` |
 | Independent channels and pilots | `scripts/v2/run_phase12.py`, `configs/v2/phase12_execution.yaml` |
 
@@ -46,7 +47,7 @@ Paths in the table are relative to `research/phase2-v2/`. Run the scripts from t
 
 ## Data and retained results
 
-Download the data ZIPs from [release v0.1.0-research](https://github.com/cdhuangjin/snr-conditioning-amc/releases/tag/v0.1.0-research) and extract to the repository root. [Data instructions and licenses](data/README.md) describe contents. Raw RadioML files and complete retained independent arrays are release assets; seed-level summaries, paired effects, estimator diagnostics, and counterexamples are in `results/paper/`. Checkpoints are not distributed in this release.
+Download the data ZIPs from [release v0.1.0-research](https://github.com/cdhuangjin/snr-conditioning-amc/releases/tag/v0.1.0-research) and extract to the repository root. [Data instructions and licenses](data/README.md) describe contents. Raw RadioML files and complete retained independent arrays are release assets; seed-level summaries, paired effects, estimator diagnostics, and counterexamples are in `results/paper/`. The learned-estimator source, five TinyCNN-SNR checkpoints, per-frame predictions, tables, and figures are in `results/learned_snr_estimator/`. The larger AWN classifier checkpoints are not distributed in this release.
 
 The main RML2016.10a comparison uses seeds 2022–2026 on one fixed stratified partition. Confidence intervals reflect training variability on that partition, not independent dataset uncertainty. Recorded results include negative outcomes: the RML2016.04C oracle effect is approximately +0.012 pp, whereas estimated M6 is approximately −2.863 pp below M0.
 

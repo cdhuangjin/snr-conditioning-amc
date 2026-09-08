@@ -1,0 +1,7 @@
+comparison,model,mean_difference_pp,sd_difference,ci95_lower,ci95_upper
+tinycnn-vs-ridge,M3,0.4032,0.6657,-0.4235,1.2298
+tinycnn-vs-ridge,M6,1.6650,0.6234,0.8909,2.4391
+tinycnn-vs-oracle,M3,-10.2295,0.7489,-11.1595,-9.2996
+tinycnn-vs-oracle,M6,-11.2136,0.4011,-11.7117,-10.7156
+tinycnn-vs-m0,M3,-5.2545,0.7299,-6.1608,-4.3483
+tinycnn-vs-m0,M6,-6.3068,0.4280,-6.8382,-5.7754
